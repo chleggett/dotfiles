@@ -1,0 +1,23 @@
+color elflord
+
+" Save folds between sessions
+au BufWinLeave ?* mkview
+au BufWinEnter ?* silent loadview
+
+filetype plugin on
+
+set nowrap
+set incsearch
+
+map \n :set invnu<CR>
+map \b :nohl<CR>
+map \v :set invwrap<CR>
+map \7 :set tw=78<CR>
+map \6 :set tw=68<CR>
+map \5 :set tw=58<CR>
+map \4 :set tw=48<CR>
+map \3 :set tw=38<CR>
+map \2 :set tw=28<CR>
+map \1 :set tw=18<CR>
+map \0 :set tw=0<CR>
+
