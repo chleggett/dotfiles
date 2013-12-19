@@ -1,6 +1,7 @@
 set -o vi
 
 alias e="exit"
+alias c="clear"
 alias nmap="nmap -Pn"
 
 export HOMEBREW_SVN="/usr/local/bin/svn"
