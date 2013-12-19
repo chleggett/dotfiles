@@ -12,13 +12,13 @@ bind m:ctrl;cmd            move screenOriginX;screenOriginY screenSizeX;screenSi
 ## Using arrow keys
 bind up:ctrl;alt;cmd       nudge +0   -10%
 bind down:ctrl;alt;cmd     nudge +0   +10%
-bind left:ctrl;alt;cmd     nudge -10% +0
-bind right:ctrl;alt;cmd    nudge +10% +0
+bind left:ctrl;alt;cmd     nudge -10.5% +0
+bind right:ctrl;alt;cmd    nudge +10.5% +0
 ## Using Vi keybingings
 bind k:ctrl;alt;cmd        nudge +0   -10%
 bind j:ctrl;alt;cmd        nudge +0   +10%
-bind h:ctrl;alt;cmd        nudge -10% +0
-bind l:ctrl;alt;cmd        nudge +10% +0
+bind h:ctrl;alt;cmd        nudge -10.5% +0
+bind l:ctrl;alt;cmd        nudge +10.5% +0
 
 # Resize Bindings
 ## Using arrow keys
