@@ -1,6 +1,7 @@
 set -o vi
 
 alias e="exit"
+alias q="exit"
 alias c="clear"
 alias nmap="nmap -Pn"
 
