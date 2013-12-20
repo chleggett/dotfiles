@@ -9,6 +9,10 @@ export LSCOLORS="hxDxbxdxcxegedabagacad"
 # Custom bash prompt via kirsle.net/wizards/ps1.html
 export PS1="\[$(tput setaf 2)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 2)\]\h\[$(tput setaf 6)\]: \[$(tput setaf 6)\]\W \[$(tput setaf 6)\]\\$ \[$(tput sgr0)\]"
 
+export PAGER=vimpager
+alias less=$PAGER
+alias zless=$PAGER
+
 export HOMEBREW_SVN="/usr/local/bin/svn"
 export HOMEBREW_GITHUB_API_TOKEN="14636cf55809ec40dee34d77cd09913406f950f7"
 
