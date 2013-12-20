@@ -6,6 +6,7 @@ alias nmap="nmap -Pn"
 
 export CLICOLOR=1
 export LSCOLORS="hxDxbxdxcxegedabagacad"
+
 # Custom bash prompt via kirsle.net/wizards/ps1.html
 export PS1="\[$(tput setaf 2)\]\u\[$(tput setaf 6)\]@\[$(tput setaf 2)\]\h\[$(tput setaf 6)\]: \[$(tput setaf 6)\]\W \[$(tput setaf 6)\]\\$ \[$(tput sgr0)\]"
 
