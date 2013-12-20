@@ -1,5 +1,4 @@
 colorscheme jellybeans
-set background=dark
 highlight Folded term=standout ctermfg=59 ctermbg=233 guifg=#535D66 guibg=#151515
 highlight FoldColumn term=standout ctermfg=59 ctermbg=233 guifg=#535D66 guibg=#151515
 highlight Comment term=bold ctermfg=59 guifg=#535D66
