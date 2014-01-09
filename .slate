@@ -10,27 +10,27 @@ bind m:ctrl;cmd            move screenOriginX;screenOriginY screenSizeX;screenSi
 
 # Nudge Bindings
 ## Using arrow keys
-bind up:ctrl;alt;cmd       nudge +0   -10%
-bind down:ctrl;alt;cmd     nudge +0   +10%
-bind left:ctrl;alt;cmd     nudge -10.5% +0
-bind right:ctrl;alt;cmd    nudge +10.5% +0
+bind up:ctrl;alt;cmd       nudge +0   -5%
+bind down:ctrl;alt;cmd     nudge +0   +5%
+bind left:ctrl;alt;cmd     nudge -5% +0
+bind right:ctrl;alt;cmd    nudge +5% +0
 ## Using Vi keybingings
-bind k:ctrl;alt;cmd        nudge +0   -10%
-bind j:ctrl;alt;cmd        nudge +0   +10%
-bind h:ctrl;alt;cmd        nudge -10.5% +0
-bind l:ctrl;alt;cmd        nudge +10.5% +0
+bind k:ctrl;alt;cmd        nudge +0   -5%
+bind j:ctrl;alt;cmd        nudge +0   +5%
+bind h:ctrl;alt;cmd        nudge -5% +0
+bind l:ctrl;alt;cmd        nudge +5% +0
 
 # Resize Bindings
 ## Using arrow keys
-bind up:ctrl;alt           resize +0   -10%
-bind down:ctrl;alt         resize +0   +10%
-bind left:ctrl;alt         resize -10% +0
-bind right:ctrl;alt        resize +10% +0
+bind up:ctrl;alt           resize +0   -5%
+bind down:ctrl;alt         resize +0   +5%
+bind left:ctrl;alt         resize -5% +0
+bind right:ctrl;alt        resize +5% +0
 ## Using Vi keybingings
-bind k:ctrl;alt            resize +0   -10%
-bind j:ctrl;alt            resize +0   +10%
-bind h:ctrl;alt            resize -10% +0
-bind l:ctrl;alt            resize +10% +0
+bind k:ctrl;alt            resize +0   -5%
+bind j:ctrl;alt            resize +0   +5%
+bind h:ctrl;alt            resize -5% +0
+bind l:ctrl;alt            resize +5% +0
 
 # Push Bindings
 ## Using arrow keys
