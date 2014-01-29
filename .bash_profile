@@ -23,6 +23,9 @@ export EDITOR=vim
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin::/opt/X11/bin:/usr/local/MacGPG2/bin:~/bin:~/bin-is"
 
+# Using rbenv to avoid the OS X provided ruby installation
+eval "$(rbenv init -)"
+
 export PYTHONPATH="/usr/local/Cellar/bulk_extractor/1.3.1/share/bulk_extractor/python"
 
 shopt -s histappend
