@@ -1,6 +1,6 @@
 [user]
 	name = Charles H. Leggett
-	email = charles.leggett@oit.gatech.edu
+	email = charles@solarturtle.net
 [core]
 	excludesfile = /Users/cleggett/.gitignore_global
 [difftool "sourcetree"]
