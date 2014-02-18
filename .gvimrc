@@ -1,1 +1,0 @@
-/Users/cleggett/.vim/janus/vim/gvimrc
