@@ -1,9 +1,11 @@
+# Set vi keybindings
 set -o vi
 
 alias e="exit"
 alias q="exit"
 alias c="clear"
 alias nmap="nmap -Pn"
+alias chbspasswd="chbspasswd -w 4 -b d,1 -a s,1"
 
 export CLICOLOR=1
 export LSCOLORS="hxDxbxdxcxegedabagacad"
