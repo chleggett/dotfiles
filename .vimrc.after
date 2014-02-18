@@ -16,11 +16,29 @@ set foldmethod=syntax
 " Highlight the current line
 set cursorline
 
+" Add keymappings to move between splits faster
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 " Toggle line numbers on and of by typing \n
 map \n :set invnu<CR>
 
 " Toggle highlighting after a search on and of by typing \h
 map \h :nohl<CR>
 
-" Toggle line wrapping  on and of by typing \w
+" Toggle line wrapping  on and off by typing \w
 map \w :set invwrap<CR>
+
+" Toggle NERDTree on and off by typing \\
+map \\ :NERDTreeToggle<CR>
+
+" Make NERDTree cd to directory when root is changed
+let NERDTreeChDirMode=2
+
+" Show NERDTree bookmarks by default.
+let NERDTreeShowBookmarks=1
+
+" Quit NERDTree after a file is opened
+let NERDTreeQuitOnOpen=1
