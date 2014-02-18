@@ -33,3 +33,10 @@ export PYTHONPATH="/usr/local/Cellar/bulk_extractor/1.3.1/share/bulk_extractor/p
 shopt -s histappend
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 
+# TMUX
+if which tmux 2>&1 >/dev/null; then
+  if [ -z "$TMUX" ]; then
+    ($(tmux ls | grep -vq attached) && $(exec tmux attach -t $(tmux ls | grep -vm1 attached | cut -d: -f1))) || exec tmux new
+  fi
+fi
+
