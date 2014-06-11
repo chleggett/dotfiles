@@ -1,1 +1,0 @@
-xkpasswd.sh
