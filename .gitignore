@@ -14,7 +14,6 @@
 .fontconfig
 .gem
 .gnupg
-.gvimrc
 .hgignore_global
 .hkiomdsrc
 .inputrc
@@ -26,15 +25,12 @@
 .plexht
 .redhatInstall.swp
 .rnd
-.slate
 .splunk
-.ssh
 .subversion
 .uikcxofn
 .vim
 .vimgolf
 .viminfo
-.vimrc
 .w3m
 .wireshark
 Alice3

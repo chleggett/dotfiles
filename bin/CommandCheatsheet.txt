@@ -1,4 +1,0 @@
-20130320:
-Numerical Sort of IPs (dot delimiter):
-$ sort -t$'.' -k4 -n math.txt 
-http://stackoverflow.com/questions/1037365/unix-sort-with-tab-delimiter
