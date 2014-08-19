@@ -1,4 +1,4 @@
-" Set colorscheme and override some of the scheme's colors
+" Set colorscheme to jellybeans, but override some of its colors.
 colorscheme jellybeans
 highlight Folded term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
 highlight FoldColumn term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
@@ -7,14 +7,14 @@ highlight Normal ctermbg=NONE
 highlight NonText ctermbg=NONE
 highlight LineNr ctermbg=NONE
 
+" Highlight the current line
+set cursorline
+
 " Set font for MacVim/gVim
 set guifont=Menlo\ Regular:h14
 
 " Auto fold based on syntax
 set foldmethod=syntax
-
-" Highlight the current line
-set cursorline
 
 " Add keymappings to move between splits faster
 nnoremap <C-h> <C-w>h
@@ -42,3 +42,15 @@ let NERDTreeShowBookmarks=1
 
 " Quit NERDTree after a file is opened
 let NERDTreeQuitOnOpen=1
+
+" Add a $ to the end of a change buffer
+set cpoptions+=$
+
+" Allow cursor to move anywhere regardless of the underlying text
+set virtualedit=all
+
+" Load Simplenote credentials from .simplenoterc
+source ~/.simplenoterc
+
+" Set height of Simplenote list
+let g:SimplenoteListHeight=30
