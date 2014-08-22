@@ -23,7 +23,7 @@ export HOMEBREW_GITHUB_API_TOKEN="14636cf55809ec40dee34d77cd09913406f950f7"
 export SVN_EDITOR=vim
 export EDITOR=vim
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin::/opt/X11/bin:/usr/local/MacGPG2/bin:~/bin:~/bin-is:/Applications/Splunk/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:~/bin:~/bin-is:/Applications/Splunk/bin"
 
 # Using rbenv to avoid the OS X provided ruby installation
 eval "$(rbenv init -)"
