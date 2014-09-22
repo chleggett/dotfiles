@@ -131,3 +131,6 @@ map \t :Simplenote -t<CR>
 " Trash Simplenote
 map \d :Simplenote -d<CR>
 
+" Turn off scroll for VimPager to unbreak search
+" https://github.com/rkitover/vimpager/issues/30
+let vimpager_scrolloff = 0
