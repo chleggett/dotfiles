@@ -36,6 +36,8 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
+Plugin 'mrtazz/simplenote.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -53,6 +55,9 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " END Vundle Config
+
+" Set laststatus to 2 (always) to show status bar for vim-airline
+set laststatus=2
 
 " Set colorscheme to jellybeans, but override some of its colors.
 colorscheme jellybeans
