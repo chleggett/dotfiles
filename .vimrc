@@ -3,6 +3,7 @@
 
 " ##############################################################################
 " BEGIN Vundle Config
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -25,11 +26,46 @@ Plugin 'mrtazz/simplenote.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" END Vundle Config
+
 " ##############################################################################
+" BEGIN Main Config
+
+" Enable syntax highlighting
+syntax on
+
+" Highlight the current line
+set cursorline
 
 " Set laststatus to 2 (always) to show status bar for vim-airline
 set laststatus=2
+
+" Allow cursor to move anywhere regardless of the underlying text
+set virtualedit=all
+
+" Auto fold based on syntax
+set foldmethod=syntax
+
+" Add a $ to the end of a change buffer
+set cpoptions+=$
+
+" Toggle line numbers on and of by typing \n
+map \n :set invnu<CR>
+
+" Toggle highlighting after a search on and off by typing \h
+map \h :nohl<CR>
+
+" Toggle line wrapping  on and off by typing \w
+map \w :set invwrap<CR>
+
+" Add keymappings to move between splits faster
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+
+" ##############################################################################
+" BEGIN Colorscheme Config
 
 " Set colorscheme to jellybeans, but override some of its colors.
 colorscheme jellybeans
@@ -40,32 +76,24 @@ highlight Normal ctermbg=NONE
 highlight NonText ctermbg=NONE
 highlight LineNr ctermbg=NONE
 
-" Enable syntax highlighting
-syntax on
 
-" Highlight the current line
-set cursorline
+" ##############################################################################
+" BEGIN MacVim/gVim Config
 
 " Set font for MacVim/gVim
 set guifont=Menlo\ Regular:h14
 
-" Auto fold based on syntax
-set foldmethod=syntax
 
-" Add keymappings to move between splits faster
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+" ##############################################################################
+" BEGIN VimPager Config
 
-" Toggle line numbers on and of by typing \n
-map \n :set invnu<CR>
+" Turn off scroll for VimPager to unbreak search
+" https://github.com/rkitover/vimpager/issues/30
+let vimpager_scrolloff = 0
 
-" Toggle highlighting after a search on and of by typing \h
-map \h :nohl<CR>
 
-" Toggle line wrapping  on and off by typing \w
-map \w :set invwrap<CR>
+" ##############################################################################
+" BEGIN NERDTree Config
 
 " Toggle NERDTree on and off by typing \\
 map \\ :NERDTreeToggle<CR>
@@ -79,11 +107,9 @@ let NERDTreeShowBookmarks=1
 " Quit NERDTree after a file is opened
 let NERDTreeQuitOnOpen=1
 
-" Add a $ to the end of a change buffer
-set cpoptions+=$
 
-" Allow cursor to move anywhere regardless of the underlying text
-set virtualedit=all
+" ##############################################################################
+" BEGIN Simplenote Config
 
 " Load Simplenote credentials from .simplenoterc
 source ~/.simplenoterc
@@ -103,6 +129,3 @@ map \t :Simplenote -t<CR>
 " Trash Simplenote
 map \d :Simplenote -d<CR>
 
-" Turn off scroll for VimPager to unbreak search
-" https://github.com/rkitover/vimpager/issues/30
-let vimpager_scrolloff = 0
