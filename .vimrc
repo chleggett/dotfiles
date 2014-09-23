@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Add plugins
 Plugin 'nanotech/jellybeans.vim'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -29,9 +30,6 @@ filetype plugin indent on    " required
 
 " ##############################################################################
 " BEGIN Main Config
-
-" Enable syntax highlighting
-syntax on
 
 " Highlight the current line
 set cursorline
@@ -67,21 +65,24 @@ nnoremap <C-l> <C-w>l
 " ##############################################################################
 " BEGIN Colorscheme Config
 
-" Set colorscheme to jellybeans, but override some of its colors.
-colorscheme jellybeans
-highlight Folded term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
-highlight FoldColumn term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
-highlight Comment term=bold ctermfg=59 guifg=#535D66
-highlight Normal ctermbg=NONE
-highlight NonText ctermbg=NONE
-highlight LineNr ctermbg=NONE
+" Enable syntax highlighting
+syntax enable
 
+set background=dark
 
-" ##############################################################################
-" BEGIN MacVim/gVim Config
+" Set colorscheme to solarized
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorscheme solarized
 
-" Set font for MacVim/gVim
-set guifont=Menlo\ Regular:h14
+" " Set colorscheme to jellybeans, but override some of its colors.
+" colorscheme jellybeans
+" highlight Folded term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
+" highlight FoldColumn term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
+" highlight Comment term=bold ctermfg=59 guifg=#535D66
+" highlight Normal ctermbg=NONE
+" highlight NonText ctermbg=NONE
+" highlight LineNr ctermbg=NONE
 
 
 " ##############################################################################
