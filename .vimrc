@@ -2,7 +2,7 @@
 " there are many like it, but this one is mine.
 
 " ##############################################################################
-" BEGIN Vundle Config
+"  Vundle Config
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -29,7 +29,7 @@ filetype plugin indent on    " required
 
 
 " ##############################################################################
-" BEGIN Main Config
+"  Main Config
 
 " Highlight the current line
 set cursorline
@@ -63,7 +63,7 @@ nnoremap <C-l> <C-w>l
 
 
 " ##############################################################################
-" BEGIN Colorscheme Config
+"  Colorscheme Config
 
 " Enable syntax highlighting
 syntax enable
@@ -86,7 +86,7 @@ colorscheme solarized
 
 
 " ##############################################################################
-" BEGIN VimPager Config
+"  VimPager Config
 
 " Turn off scroll for VimPager to unbreak search
 " https://github.com/rkitover/vimpager/issues/30
@@ -94,7 +94,7 @@ let vimpager_scrolloff = 0
 
 
 " ##############################################################################
-" BEGIN NERDTree Config
+"  NERDTree Config
 
 " Toggle NERDTree on and off by typing \\
 map \\ :NERDTreeToggle<CR>
@@ -110,7 +110,7 @@ let NERDTreeQuitOnOpen=1
 
 
 " ##############################################################################
-" BEGIN Simplenote Config
+"  Simplenote Config
 
 " Load Simplenote credentials from .simplenoterc
 source ~/.simplenoterc
