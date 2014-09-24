@@ -15,7 +15,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Add plugins
-Plugin 'nanotech/jellybeans.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
@@ -74,15 +73,6 @@ set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
-
-" " Set colorscheme to jellybeans, but override some of its colors.
-" colorscheme jellybeans
-" highlight Folded term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
-" highlight FoldColumn term=standout ctermfg=59 ctermbg=NONE guifg=#535D66 guibg=#151515
-" highlight Comment term=bold ctermfg=59 guifg=#535D66
-" highlight Normal ctermbg=NONE
-" highlight NonText ctermbg=NONE
-" highlight LineNr ctermbg=NONE
 
 
 " ##############################################################################
