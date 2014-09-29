@@ -18,7 +18,6 @@ alias less=$PAGER
 alias zless=$PAGER
 
 export HOMEBREW_SVN="/usr/local/bin/svn"
-export HOMEBREW_GITHUB_API_TOKEN="14636cf55809ec40dee34d77cd09913406f950f7"
 
 export SVN_EDITOR=vim
 export EDITOR=vim
