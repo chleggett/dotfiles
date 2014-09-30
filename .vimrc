@@ -20,7 +20,7 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
-Plugin 'mrtazz/simplenote.vim'
+"Plugin 'mrtazz/simplenote.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -99,24 +99,24 @@ let NERDTreeShowBookmarks=1
 let NERDTreeQuitOnOpen=1
 
 
-" ##############################################################################
-"  Simplenote Config
-
-" Load Simplenote credentials from .simplenoterc
-source ~/.simplenoterc
-
-" Set height of Simplenote list
-let g:SimplenoteListHeight=30
-
-" Query and list Simplenotes
-map \s :Simplenote -l<CR>
-
-" New Simplenote
-map \a :Simplenote -n<CR>
-
-" Tag Simplenote
-map \t :Simplenote -t<CR>
-
-" Trash Simplenote
-map \d :Simplenote -d<CR>
-
+"" ##############################################################################
+""  Simplenote Config
+"
+"" Load Simplenote credentials from .simplenoterc
+"source ~/.simplenoterc
+"
+"" Set height of Simplenote list
+"let g:SimplenoteListHeight=30
+"
+"" Query and list Simplenotes
+"map \s :Simplenote -l<CR>
+"
+"" New Simplenote
+"map \a :Simplenote -n<CR>
+"
+"" Tag Simplenote
+"map \t :Simplenote -t<CR>
+"
+"" Trash Simplenote
+"map \d :Simplenote -d<CR>
+"
