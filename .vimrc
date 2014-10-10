@@ -17,6 +17,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
+Plugin 'bling/vim-bufferline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
@@ -80,7 +81,11 @@ cnoreabbrev <expr> h ((getcmdtype() is# ':' && getcmdline() is# 'h')?('vert h'):
 " VimPager """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Turn off scroll for VimPager to unbreak search (https://github.com/rkitover/vimpager/issues/30)
-let vimpager_scrolloff = 0 
+let vimpager_scrolloff = 0
+
+" vim-airline (with bufferline extension) """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 
 " NERDTree Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
