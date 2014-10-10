@@ -1,122 +1,91 @@
 " Charles H. Leggett's .vimrc
-" there are many like it, but this one is mine.
+" There are many like it, but this one is mine.
 
-" ##############################################################################
-"  Vundle Config
+" Vundle Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
+filetype off
 
-" set the runtime path to include Vundle and initialize
+" Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" let Vundle manage Vundle, required
+" Let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
 " Add plugins
+Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
-"Plugin 'mrtazz/simplenote.vim'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+call vundle#end()
+filetype plugin indent on
 
+" Main Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" ##############################################################################
-"  Main Config
+set backspace=2        " Make backspace work like it does most other apps (indent,eol,start)
+set shiftwidth=4       " Indent 4 columns
+set textwidth=80       " Wrap after 80 columns
+set cpoptions+=$       " Add a $ to the end of a change buffer
+set incsearch          " Incremental search as you type characters
+set hlsearch           " Highlight search results
+set cursorline         " Highlight the current line
+set hidden             " Use hidden buffers by default
+set laststatus=2       " Set laststatus to always to show status bar
+set virtualedit=all    " Allow cursor to move anywhere regardless of the underlying text
+set foldmethod=syntax  " Auto fold based on syntax
+set splitbelow         " Open horizontal splits below
+set splitright         " Open vertical splits to the right
 
-" Highlight the current line
-set cursorline
+" Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Set laststatus to 2 (always) to show status bar for vim-airline
-set laststatus=2
-
-" Allow cursor to move anywhere regardless of the underlying text
-set virtualedit=all
-
-" Auto fold based on syntax
-set foldmethod=syntax
-
-" Add a $ to the end of a change buffer
-set cpoptions+=$
-
-" Toggle line numbers on and of by typing \n
-map \n :set invnu<CR>
-
-" Toggle highlighting after a search on and off by typing \h
-map \h :nohl<CR>
-
-" Toggle line wrapping  on and off by typing \w
-map \w :set invwrap<CR>
-
-" Add keymappings to move between splits faster
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
-
-
-" ##############################################################################
-"  Colorscheme Config
-
-" Enable syntax highlighting
 syntax enable
-
 set background=dark
-
-" Set colorscheme to solarized
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
 
+" Shortcuts and Keybindings """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" ##############################################################################
-"  VimPager Config
+let mapleader=" "                " Change the <Leader> key
+map <Leader>n    :set invnu<CR>  " Toggle line numbers by typing <Leader>n
+map <Leader>h    :nohl<CR>       " Disable highlighting after a search
+map <Leader>c    "*y<CR>         " Yank selection to system clipboard
 
-" Turn off scroll for VimPager to unbreak search
-" https://github.com/rkitover/vimpager/issues/30
-let vimpager_scrolloff = 0
+" Keybindings for buffers
+map <Leader>bb   :buffers<CR>:buffer<Space>
+map <Leader>bl   :buffers<CR>:buffer<Space>
+map <Leader>bn   :bnext<CR>
+map <Leader>bp   :bprevious<CR>
+map <Leader>bd   :bdelete<CR>
 
+" Keybindings for window splits
+nnoremap <C-w>n  :vnew<CR>
 
-" ##############################################################################
-"  NERDTree Config
+" Keybindings for tabs
+nnoremap <C-t>   :tabnew<CR>
+nnoremap <C-t>n  :tabnew<CR>
+nnoremap <C-t>l  :tabnext<CR>
+nnoremap <C-t>h  :tabprevious<CR>
+nnoremap <C-t>c  :tabclose<CR>
 
-" Toggle NERDTree on and off by typing \\
-map \\ :NERDTreeToggle<CR>
+" Make calls to help open in a vertical split
+cnoreabbrev <expr> help ((getcmdtype() is# ':' && getcmdline() is# 'help')?('vert help'):('help'))
+cnoreabbrev <expr> h ((getcmdtype() is# ':' && getcmdline() is# 'h')?('vert h'):('h'))
 
-" Make NERDTree cd to directory when root is changed
-let NERDTreeChDirMode=2
+" VimPager """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Show NERDTree bookmarks by default.
-let NERDTreeShowBookmarks=1
+" Turn off scroll for VimPager to unbreak search (https://github.com/rkitover/vimpager/issues/30)
+let vimpager_scrolloff = 0 
 
-" Quit NERDTree after a file is opened
-let NERDTreeQuitOnOpen=1
+" NERDTree Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+map <Leader>\  :NERDTreeToggle<CR>  " Toggle NERDTree on and off by typing <Leader>\
+let NERDTreeChDirMode=2             " Make NERDTree cd to directory when root is changed
+let NERDTreeShowBookmarks=1         " Show NERDTree bookmarks by default.
+let NERDTreeQuitOnOpen=1            " Quit NERDTree after a file is opened
 
-"" ##############################################################################
-""  Simplenote Config
-"
-"" Load Simplenote credentials from .simplenoterc
-"source ~/.simplenoterc
-"
-"" Set height of Simplenote list
-"let g:SimplenoteListHeight=30
-"
-"" Query and list Simplenotes
-"map \s :Simplenote -l<CR>
-"
-"" New Simplenote
-"map \a :Simplenote -n<CR>
-"
-"" Tag Simplenote
-"map \t :Simplenote -t<CR>
-"
-"" Trash Simplenote
-"map \d :Simplenote -d<CR>
-"
