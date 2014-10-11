@@ -21,6 +21,7 @@ Plugin 'bling/vim-bufferline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -96,4 +97,8 @@ map <Leader>\  :NERDTreeToggle<CR>  " Toggle NERDTree on and off by typing <Lead
 let NERDTreeChDirMode=2             " Make NERDTree cd to directory when root is changed
 let NERDTreeShowBookmarks=1         " Show NERDTree bookmarks by default.
 let NERDTreeQuitOnOpen=1            " Quit NERDTree after a file is opened
+
+" vim-gitgutter """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+map <Leader>g  :GitGutterSignsToggle<CR>
 
