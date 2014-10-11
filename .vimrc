@@ -28,19 +28,21 @@ filetype plugin indent on
 
 " Main Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set backspace=2        " Make backspace work like it does most other apps (indent,eol,start)
-set shiftwidth=4       " Indent 4 columns
-set textwidth=80       " Wrap after 80 columns
-set cpoptions+=$       " Add a $ to the end of a change buffer
-set incsearch          " Incremental search as you type characters
-set hlsearch           " Highlight search results
-set cursorline         " Highlight the current line
-set hidden             " Use hidden buffers by default
-set laststatus=2       " Set laststatus to always to show status bar
-set virtualedit=all    " Allow cursor to move anywhere regardless of the underlying text
-set foldmethod=syntax  " Auto fold based on syntax
-set splitbelow         " Open horizontal splits below
-set splitright         " Open vertical splits to the right
+set backspace=2              " Make backspace work like it does most other apps (indent,eol,start)
+set shiftwidth=4             " Indent 4 columns
+set textwidth=80             " Wrap after 80 columns
+set cpoptions+=$             " Add a $ to the end of a change buffer
+set incsearch                " Incremental search as you type characters
+set hlsearch                 " Highlight search results
+set cursorline               " Highlight the current line
+set cursorcolumn             " Highlight the current line
+set hidden                   " Use hidden buffers by default
+set laststatus=2             " Set laststatus to always to show status bar
+set virtualedit=all          " Allow cursor to move anywhere regardless of the underlying text
+set foldmethod=syntax        " Auto fold based on syntax
+set splitbelow               " Open horizontal splits below
+set splitright               " Open vertical splits to the right
+set listchars=tab:▸\ ,eol:¬  " Use 'fancy' invisible characters
 
 " Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -55,6 +57,7 @@ colorscheme solarized
 let mapleader=" "                " Change the <Leader> key
 map <Leader>n    :set invnu<CR>  " Toggle line numbers by typing <Leader>n
 map <Leader>h    :nohl<CR>       " Disable highlighting after a search
+map <Leader>l    :set list!<CR>  " Toggle invisible characters
 map <Leader>c    "*y<CR>         " Yank selection to system clipboard
 
 " Keybindings for buffers
@@ -87,7 +90,7 @@ let vimpager_scrolloff = 0
 
 let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 
-" NERDTree Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" NERDTree """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 map <Leader>\  :NERDTreeToggle<CR>  " Toggle NERDTree on and off by typing <Leader>\
 let NERDTreeChDirMode=2             " Make NERDTree cd to directory when root is changed
