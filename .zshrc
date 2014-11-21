@@ -2,7 +2,7 @@
 # there are many like it, but this one is mine.
 
 ## Setup prompt and make things pretty #################
-PROMPT='%m %c %# '
+PROMPT='%n@%m %c %# '
 RPROMPT='%~'
 export CLICOLOR=1
 # LSCOLORS string to approximate solarized colorscheme
