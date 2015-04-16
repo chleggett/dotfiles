@@ -4,7 +4,9 @@
 .TemporaryItems
 .TheBrain
 .Trash
+.Xauthority
 .alice3installer
+.antigen/
 .anyconnect
 .apdisk
 .bash_history
@@ -31,6 +33,7 @@
 .rbenv
 .redhatInstall.swp
 .rnd
+.ruby-version
 .simplenoterc
 .splunk
 .ssh
@@ -43,6 +46,7 @@
 .w3m
 .wireshark
 .wireshark-etc
+.zcompdump
 .zsh_history
 130.207.252.177
 Alice3
