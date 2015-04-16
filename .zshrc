@@ -53,4 +53,13 @@ alias less=$PAGER
 alias zless=$PAGER
 export EDITOR=vim
 
+## Setup zsh-history-substring-search ##################
+# bind UP and DOWN arrow keys
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# bind k and j for VI mode
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
 
