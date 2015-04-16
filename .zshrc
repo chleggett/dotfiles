@@ -1,6 +1,12 @@
 # Charles H. Leggett's .zshrc
 # there are many like it, but this one is mine.
 
+## Use Antigen to manage plugins #######################
+source .antigen/antigen.zsh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
+
 ## Setup prompt and make things pretty #################
 PROMPT='%n@%m %c %# '
 RPROMPT='%~'
