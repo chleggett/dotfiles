@@ -53,6 +53,10 @@ alias less=$PAGER
 alias zless=$PAGER
 export EDITOR=vim
 
+## Set up Ruby environment #############################
+eval "$(rbenv init -)"
+
+
 ## Setup zsh-history-substring-search ##################
 # bind UP and DOWN arrow keys
 bindkey '^[[A' history-substring-search-up
