@@ -10,7 +10,9 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 
 ## Set up environment ##################################
-PATH=$PATH:~/bin:~/bin-is
+PATH=$PATH:~/bin
+PATH=$PATH:~/bin-is
+PATH=$PATH:/Applications/Splunk/bin
 
 
 ## Set aliases for convenience #########################
