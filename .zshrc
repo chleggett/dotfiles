@@ -33,7 +33,7 @@ alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 ## Save and share history ##############################
 HISTFILE=~/.zsh_history
-SAVEHIST=100
+SAVEHIST=1000
 setopt inc_append_history
 setopt share_history
 setopt hist_ignore_all_dups
