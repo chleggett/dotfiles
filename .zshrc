@@ -25,7 +25,7 @@ PATH=$PATH:/Applications/Splunk/bin
 alias e="exit"
 alias q="exit"
 alias c="clear"
-alias nmap="nmap -Pn"
+#alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
 
 
