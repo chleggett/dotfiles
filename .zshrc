@@ -16,7 +16,6 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 
 ## Set up environment ##################################
-<<<<<<< HEAD
 PATH=""
 PATH="$PATH/bin"
 PATH="$PATH:/sbin"
@@ -30,11 +29,6 @@ PATH="$PATH:/opt/X11/bin"
 PATH="$PATH:/usr/local/MacGPG2/bin"
 PATH="$PATH:/Applications/Splunk/bin"
 export PATH
-=======
-PATH=$PATH:~/bin
-PATH=$PATH:~/bin-is
-PATH=$PATH:/Applications/Splunk/bin
->>>>>>> 1aaeffff6248ea253c21cc8f7db355ad47ae969d
 
 
 ## Set aliases for convenience #########################
