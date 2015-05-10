@@ -1,6 +1,12 @@
 # Charles H. Leggett's .zshrc
 # there are many like it, but this one is mine.
 
+## Use Antigen to manage plugins #######################
+source .antigen/antigen.zsh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
+
 ## Setup prompt and make things pretty #################
 PROMPT='%n@%m %c %# '
 RPROMPT='%~'
@@ -10,6 +16,7 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 
 ## Set up environment ##################################
+<<<<<<< HEAD
 PATH=""
 PATH="$PATH/bin"
 PATH="$PATH:/sbin"
@@ -23,19 +30,26 @@ PATH="$PATH:/opt/X11/bin"
 PATH="$PATH:/usr/local/MacGPG2/bin"
 PATH="$PATH:/Applications/Splunk/bin"
 export PATH
+=======
+PATH=$PATH:~/bin
+PATH=$PATH:~/bin-is
+PATH=$PATH:/Applications/Splunk/bin
+>>>>>>> 1aaeffff6248ea253c21cc8f7db355ad47ae969d
 
 
 ## Set aliases for convenience #########################
 alias e="exit"
 alias q="exit"
 alias c="clear"
-alias nmap="nmap -Pn"
+#alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
 
 
 ## Save and share history ##############################
 HISTFILE=~/.zsh_history
-SAVEHIST=100
+SAVEHIST=1000
 setopt inc_append_history
 setopt share_history
 setopt hist_ignore_all_dups
@@ -54,5 +68,18 @@ export PAGER=vimpager
 alias less=$PAGER
 alias zless=$PAGER
 export EDITOR=vim
+
+## Set up Ruby environment #############################
+eval "$(rbenv init -)"
+
+
+## Setup zsh-history-substring-search ##################
+# bind UP and DOWN arrow keys
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# bind k and j for VI mode
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
 
 
