@@ -35,6 +35,7 @@ export PATH
 alias e="exit"
 alias q="exit"
 alias c="clear"
+alias pg="ping 8.8.8.8"
 #alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
