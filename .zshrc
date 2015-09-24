@@ -16,13 +16,12 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 
 ## Set up environment ##################################
-PATH=""
-PATH="$PATH/bin"
-PATH="$PATH:/sbin"
+PATH="/usr/local/bin"
+PATH="$PATH:/usr/local/sbin"
 PATH="$PATH:/usr/bin"
 PATH="$PATH:/usr/sbin"
-PATH="$PATH:/usr/local/bin"
-PATH="$PATH:/usr/local/sbin"
+PATH="$PATH:/bin"
+PATH="$PATH:/sbin"
 PATH="$PATH:~/bin"
 PATH="$PATH:~/bin-is"
 PATH="$PATH:/opt/X11/bin"
