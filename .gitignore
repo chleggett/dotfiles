@@ -1,4 +1,3 @@
-*.gatech.edu
 .CFUserTextEncoding
 .DS_Store
 .TemporaryItems
@@ -11,8 +10,8 @@
 .apdisk
 .bash_history
 .cache
-.cisco
 .chirp
+.cisco
 .config
 .cups
 .dropbox
@@ -28,6 +27,8 @@
 .lesshst
 .local
 .msf4
+.node-gyp
+.npm
 .ovftool.ssldb
 .pip
 .plexht
