@@ -1,0 +1,13 @@
+"*":
+  "exception-reporting":
+    userId: "e5ab958c-c957-7686-c8f8-4b2b45c4a6e6"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+  "vim-mode": {}
