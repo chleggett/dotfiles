@@ -2,7 +2,7 @@
 # there are many like it, but this one is mine.
 
 ## Use Antigen to manage plugins #######################
-source .antigen/antigen.zsh
+source ~/.antigen/antigen.zsh
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
@@ -75,4 +75,4 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 
 ## Source .zshrc.homebrew for HOMEBREW_GITHUB_API_TOKEN
-source .zshrc.homebrew
+source ~/.zshrc.homebrew
