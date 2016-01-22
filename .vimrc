@@ -22,7 +22,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'suan/vim-instant-markdown'
+Plugin 'shime/vim-livedown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -103,3 +103,7 @@ let NERDTreeQuitOnOpen=1            " Quit NERDTree after a file is opened
 
 map <Leader>g  :GitGutterSignsToggle<CR>
 
+" livedown """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Toggle Livedown Preview
+nmap <Leader>ld   :LivedownToggle<CR>
