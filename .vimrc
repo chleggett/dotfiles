@@ -107,4 +107,6 @@ map <Leader>g  :GitGutterSignsToggle<CR>
 " livedown """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Toggle Livedown Preview
-nmap <Leader>ld   :LivedownToggle<CR>
+map <Leader>ld   :LivedownToggle<CR> # Toggle Markdown Viewer
+
+
