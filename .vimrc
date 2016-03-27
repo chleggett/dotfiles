@@ -30,21 +30,21 @@ filetype plugin indent on
 
 " Main Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set backspace=2              " Make backspace work like it does most other apps (indent,eol,start)
-set shiftwidth=4             " Indent 4 columns
-set textwidth=80             " Wrap after 80 columns
-set cpoptions+=$             " Add a $ to the end of a change buffer
-set incsearch                " Incremental search as you type characters
-set hlsearch                 " Highlight search results
-set cursorline               " Highlight the current line
-set cursorcolumn             " Highlight the current line
-set hidden                   " Use hidden buffers by default
-set laststatus=2             " Set laststatus to always to show status bar
-set virtualedit=all          " Allow cursor to move anywhere regardless of the underlying text
-set foldmethod=syntax        " Auto fold based on syntax
-set splitbelow               " Open horizontal splits below
-set splitright               " Open vertical splits to the right
-set listchars=tab:▸\ ,eol:¬  " Use 'fancy' invisible characters
+set backspace=indent,eol,start   " Make backspace work like it does most other apps (
+set shiftwidth=4                 " Indent 4 columns
+set textwidth=80                 " Wrap after 80 columns
+set cpoptions+=$                 " Add a $ to the end of a change buffer
+set incsearch                    " Incremental search as you type characters
+set hlsearch                     " Highlight search results
+set cursorline                   " Highlight the current line
+set cursorcolumn                 " Highlight the current line
+set hidden                       " Use hidden buffers by default
+set laststatus=2                 " Set laststatus to always to show status bar
+set virtualedit=all              " Allow cursor to move anywhere regardless of the underlying text
+set foldmethod=syntax            " Auto fold based on syntax
+set splitbelow                   " Open horizontal splits below
+set splitright                   " Open vertical splits to the right
+set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
 
 " Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
