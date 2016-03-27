@@ -56,11 +56,12 @@ colorscheme solarized
 
 " Shortcuts and Keybindings """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let mapleader=" "                " Change the <Leader> key
-map <Leader>n    :set invnu<CR>  " Toggle line numbers by typing <Leader>n
-map <Leader>h    :nohl<CR>       " Disable highlighting after a search
-map <Leader>l    :set list!<CR>  " Toggle invisible characters
-map <Leader>c    "*y<CR>         " Yank selection to system clipboard
+let mapleader=" "                	" Change the <Leader> key
+map <Leader>n    :set invnu<CR>  	" Toggle line numbers by typing <Leader>n
+map <Leader>h    :nohl<CR>       	" Disable highlighting after a search
+map <Leader>sw   :StripWhitespace<CR>	" Strip trailing whitespace
+map <Leader>l    :set list!<CR>  	" Toggle invisible characters
+map <Leader>c    "*y<CR>         	" Yank selection to system clipboard
 
 " Keybindings for buffers
 map <Leader>bb   :buffers<CR>:buffer<Space>
