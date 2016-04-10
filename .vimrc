@@ -30,7 +30,7 @@ filetype plugin indent on
 
 " Main Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set backspace=indent,eol,start   " Make backspace work like it does most other apps (
+set backspace=indent,eol,start   " Make backspace work like it does most other apps
 set shiftwidth=4                 " Indent 4 columns
 set textwidth=80                 " Wrap after 80 columns
 set cpoptions+=$                 " Add a $ to the end of a change buffer
