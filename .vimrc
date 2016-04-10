@@ -63,6 +63,7 @@ map <Leader>h    :nohl<CR>       	" Disable highlighting after a search
 map <Leader>sw   :StripWhitespace<CR>	" Strip trailing whitespace
 map <Leader>l    :set list!<CR>  	" Toggle invisible characters
 map <Leader>c    "*y<CR>         	" Yank selection to system clipboard
+map <Leader>p    :set invpaste<CR>  	" Toggle paste mode.
 map <Leader>w    :set invwrap<CR>  	" Toggle wrap mode.
 
 " Keybindings for buffers
