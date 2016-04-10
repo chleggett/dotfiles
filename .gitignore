@@ -14,12 +14,14 @@
 .cisco
 .config
 .cups
+.docker/
 .dropbox
 .fontconfig
 .gem
 .gnupg
 .gnuradio
 .gr_fftw_wisdom
+.grc
 .hgignore_global
 .hkiomdsrc
 .inputrc
@@ -29,6 +31,7 @@
 .msf4
 .node-gyp
 .npm
+.oracle_jre_usage/
 .ovftool.ssldb
 .pip
 .plexht
@@ -38,14 +41,19 @@
 .ruby-version
 .simplenoterc
 .splunk
+.sqlite_history
 .ssh
 .subversion
+.swo
+.swp
 .tqsl
 .uikcxofn
+.vagrant.d/
 .vim
 .vimgolf
 .viminfo
 .w3m
+.wget-hsts
 .wireshark
 .wireshark-etc
 .zcompdump
@@ -62,12 +70,18 @@ Downloads
 Dropbox
 FY13
 Google Drive
+Images/
 Library
+MS-CVEs.dat
 Movies
 Music
 Pictures
 Public
+VMware/
+Vagrants/
+VirtualBox VMs/
 bin
 bin-is
+github-2fa.gatech.edu/
 github.com
 solarturtle.net
