@@ -36,6 +36,8 @@ export PATH
 alias e="exit"
 alias q="exit"
 alias c="clear"
+alias finder="open ."
+alias numbers="open -a Numbers"
 alias pg="ping 8.8.8.8"
 alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
