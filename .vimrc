@@ -33,6 +33,7 @@ filetype plugin indent on
 set backspace=indent,eol,start   " Make backspace work like it does most other apps
 set shiftwidth=4                 " Indent 4 columns
 set textwidth=80                 " Wrap after 80 columns
+set nowrap                       " Do not wrap long lines by default
 set cpoptions+=$                 " Add a $ to the end of a change buffer
 set incsearch                    " Incremental search as you type characters
 set hlsearch                     " Highlight search results
@@ -62,6 +63,7 @@ map <Leader>h    :nohl<CR>       	" Disable highlighting after a search
 map <Leader>sw   :StripWhitespace<CR>	" Strip trailing whitespace
 map <Leader>l    :set list!<CR>  	" Toggle invisible characters
 map <Leader>c    "*y<CR>         	" Yank selection to system clipboard
+map <Leader>w    :set invwrap<CR>  	" Toggle wrap mode.
 
 " Keybindings for buffers
 map <Leader>bb   :buffers<CR>:buffer<Space>
