@@ -14,6 +14,8 @@ export CLICOLOR=1
 # LSCOLORS string to approximate solarized colorscheme
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
+## Run tmux if not already in a tmux session ###########
+if [ "$TMUX" = "" ]; then tmux; fi
 
 ## Set up environment ##################################
 PATH="/usr/local/bin"
