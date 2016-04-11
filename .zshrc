@@ -14,6 +14,8 @@ export CLICOLOR=1
 # LSCOLORS string to approximate solarized colorscheme
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
+## Run tmux if not already in a tmux session ###########
+if [ "$TMUX" = "" ]; then tmux; fi
 
 ## Set up environment ##################################
 PATH="/usr/local/bin"
@@ -34,6 +36,8 @@ export PATH
 alias e="exit"
 alias q="exit"
 alias c="clear"
+alias finder="open ."
+alias numbers="open -a Numbers"
 alias pg="ping 8.8.8.8"
 alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
