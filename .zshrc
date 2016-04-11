@@ -15,7 +15,7 @@ export CLICOLOR=1
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 ## Run tmux if not already in a tmux session ###########
-if [ "$TMUX" = "" ]; then tmux; fi
+if [ "$TMUX" = "" ]; then exec tmux; fi
 
 ## Set up environment ##################################
 PATH="/usr/local/bin"
