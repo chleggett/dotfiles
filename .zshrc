@@ -9,7 +9,7 @@ antigen bundle zsh-users/zsh-history-substring-search
 
 ## Setup prompt and make things pretty #################
 PROMPT='%n@%m %c %# '
-RPROMPT='%~'
+#RPROMPT='%~'
 export CLICOLOR=1
 # LSCOLORS string to approximate solarized colorscheme
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
