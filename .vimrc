@@ -23,6 +23,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'shime/vim-livedown'
+Bundle 'neilagabriel/vim-geeknote'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -111,5 +112,8 @@ map <Leader>g  :GitGutterSignsToggle<CR>
 
 " Toggle Livedown Preview
 map <Leader>ld   :LivedownToggle<CR> # Toggle Markdown Viewer
+
+" Geeknote """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <Leader>gn :Geeknote<cr>
 
 
