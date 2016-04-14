@@ -33,8 +33,8 @@ export PATH
 
 
 ## Set aliases for convenience #########################
-alias zshsrc="source ~/.zshrc"
-alias tmuxsrc="tmux source ~/.tmux.conf"
+alias srczshrc="source ~/.zshrc"
+alias srctmuxconf="tmux source ~/.tmux.conf"
 alias e="exit"
 alias q="exit"
 alias c="clear"
