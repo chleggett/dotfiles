@@ -99,7 +99,7 @@ let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 
 " NERDTree """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-map <Leader>\  :NERDTreeToggle<CR>  " Toggle NERDTree on and off by typing <Leader>\
+map <Leader>nt  :NERDTreeToggle<CR>  " Toggle NERDTree on and off by typing <Leader>\
 let NERDTreeChDirMode=2             " Make NERDTree cd to directory when root is changed
 let NERDTreeShowBookmarks=1         " Show NERDTree bookmarks by default.
 let NERDTreeQuitOnOpen=1            " Quit NERDTree after a file is opened
