@@ -40,9 +40,7 @@ alias q="exit"
 alias c="clear"
 alias tmuxls="tmux list-sessions"
 alias tmuxks="tmux kill-session -t"
-=======
 alias speedtest="speedtest-cli"
->>>>>>> Stashed changes
 alias finder="open ."
 alias numbers="open -a Numbers"
 alias pg="ping 8.8.8.8"
