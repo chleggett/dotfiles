@@ -38,7 +38,6 @@ alias srctmuxconf="tmux source ~/.tmux.conf"
 alias e="exit"
 alias q="exit"
 alias c="clear"
-<<<<<<< Updated upstream
 alias tmuxls="tmux list-sessions"
 alias tmuxks="tmux kill-session -t"
 =======
