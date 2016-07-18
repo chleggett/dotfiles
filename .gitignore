@@ -13,6 +13,7 @@
 .chirp
 .cisco
 .config
+!.config/gqrx/*
 .cups
 .docker/
 .dropbox
