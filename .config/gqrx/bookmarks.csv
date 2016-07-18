@@ -1,0 +1,10 @@
+# Tag name          ;  color
+Untagged            ; #c0c0c0
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+    88500000; WRAS - GPB Atlanta       ; WFM (stereo)        ;     160000; Untagged
+   121800000; Brisco - Ground          ; AM                  ;      10000; Untagged
+   124100000; Brisco - Tower           ; AM                  ;      10000; Untagged
+   128525000; ATL - NE Approach        ; AM                  ;      10000; Untagged
+   146520000; National Simplex         ; AM                  ;      10000; Untagged
+   147075000; GARS                     ; AM                  ;      10000; Untagged
