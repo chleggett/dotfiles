@@ -1,8 +1,0 @@
-"*":
-  core: {}
-  editor:
-    invisibles: {}
-  "exception-reporting":
-    userId: "86f25fa0-fbe0-948e-ee4f-28d0aaf01e5a"
-  welcome:
-    showOnStartup: false
