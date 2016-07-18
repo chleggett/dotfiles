@@ -1,3 +1,4 @@
+!.config/gqrx/*
 .CFUserTextEncoding
 .DS_Store
 .TemporaryItems
@@ -13,7 +14,6 @@
 .chirp
 .cisco
 .config
-!.config/gqrx/*
 .cups
 .docker/
 .dropbox
@@ -69,12 +69,15 @@ Desktop
 Documents
 Downloads
 Dropbox
+Dropbox (GeorgiaTech)/
+Dropbox (Personal)/
 FY13
 Google Drive
 Images/
 Library
 Movies
 Music
+OneDrive/
 Pictures
 Public
 VMware/
