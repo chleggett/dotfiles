@@ -47,6 +47,7 @@ set foldmethod=syntax            " Auto fold based on syntax
 set splitbelow                   " Open horizontal splits below
 set splitright                   " Open vertical splits to the right
 set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
+set clipboard=unnamed		 " Use system clipboard
 
 " Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -63,7 +64,6 @@ map <Leader>n    :set invnu<CR>  	" Toggle line numbers by typing <Leader>n
 map <Leader>h    :nohl<CR>       	" Disable highlighting after a search
 map <Leader>sw   :StripWhitespace<CR>	" Strip trailing whitespace
 map <Leader>l    :set list!<CR>  	" Toggle invisible characters
-map <Leader>c    "*y<CR>         	" Yank selection to system clipboard
 map <Leader>p    :set invpaste<CR>  	" Toggle paste mode.
 map <Leader>w    :set invwrap<CR>  	" Toggle wrap mode.
 
