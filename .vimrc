@@ -23,7 +23,10 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'shime/vim-livedown'
-Bundle 'neilagabriel/vim-geeknote'
+Plugin 'neilagabriel/vim-geeknote'
+Plugin 'valloric/youcompleteme'
+Plugin 'raimondi/delimitmate'
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -109,11 +112,13 @@ let NERDTreeQuitOnOpen=1            " Quit NERDTree after a file is opened
 map <Leader>g  :GitGutterSignsToggle<CR>
 
 " livedown """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Toggle Livedown Preview
-map <Leader>ld   :LivedownToggle<CR> # Toggle Markdown Viewer
+map <Leader>ld :LivedownToggle<CR> " Toggle Livedown Preview
 
 " Geeknote """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <Leader>gn :Geeknote<cr>
 
+" delimitMate """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let delimitMateAutoClose=1
 
+" YouCompleteMe """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ycm_autoclose_preview_window_after_completion=1
