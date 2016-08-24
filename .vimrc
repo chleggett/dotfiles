@@ -36,6 +36,8 @@ filetype plugin indent on
 
 set backspace=indent,eol,start   " Make backspace work like it does most other apps
 set shiftwidth=4                 " Indent 4 columns
+set relativenumber		 " Enable relative line numbering
+set number                       " Set current line to actual line number
 set textwidth=80                 " Wrap after 80 columns
 set nowrap                       " Do not wrap long lines by default
 set cpoptions+=$                 " Add a $ to the end of a change buffer
@@ -62,13 +64,13 @@ colorscheme solarized
 
 " Shortcuts and Keybindings """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let mapleader=" "                	" Change the <Leader> key
-map <Leader>n    :set invnu<CR>  	" Toggle line numbers by typing <Leader>n
-map <Leader>h    :nohl<CR>       	" Disable highlighting after a search
-map <Leader>sw   :StripWhitespace<CR>	" Strip trailing whitespace
-map <Leader>l    :set list!<CR>  	" Toggle invisible characters
-map <Leader>p    :set invpaste<CR>  	" Toggle paste mode.
-map <Leader>w    :set invwrap<CR>  	" Toggle wrap mode.
+let mapleader=" "                		" Change the <Leader> key
+map <Leader>n    :set invrelativenumber<CR>  	" Toggle relative line numbers by typing <Leader>n
+map <Leader>h    :nohl<CR>       		" Disable highlighting after a search
+map <Leader>sw   :StripWhitespace<CR>		" Strip trailing whitespace
+map <Leader>l    :set list!<CR>  		" Toggle invisible characters
+map <Leader>p    :set invpaste<CR>  		" Toggle paste mode.
+map <Leader>w    :set invwrap<CR>  		" Toggle wrap mode.
 
 " Keybindings for buffers
 map <Leader>bb   :buffers<CR>:buffer<Space>
