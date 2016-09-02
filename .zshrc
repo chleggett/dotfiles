@@ -18,12 +18,12 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 if [ "$TMUX" = "" ]; then exec tmux; fi
 
 ## Set up environment ##################################
-PATH="/usr/local/bin"
-PATH="$PATH:/usr/bin"
-PATH="$PATH:/bin"
-PATH="$PATH:/usr/local/sbin"
-PATH="$PATH:/usr/sbin"
+PATH="/bin"
 PATH="$PATH:/sbin"
+PATH="$PATH:/usr/local/bin"
+PATH="$PATH:/usr/local/sbin"
+PATH="$PATH:/usr/bin"
+PATH="$PATH:/usr/sbin"
 PATH="$PATH:/Users/cleggett/bin"
 PATH="$PATH:/Users/cleggett/bin-is"
 PATH="$PATH:/opt/X11/bin"
