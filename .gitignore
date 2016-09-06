@@ -44,6 +44,7 @@
 .splunk
 .sqlite_history
 .ssh
+.stack
 .subversion
 .swo
 .swp
