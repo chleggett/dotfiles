@@ -12,6 +12,8 @@ antigen bundle olivierverdier/zsh-git-prompt
 PROMPT='%n@%m %c %# '
 RPROMPT='$(git_super_status)'
 
+GIT_PROMPT_EXECUTABLE="haskell"
+ZSH_THEME_GIT_PROMPT_CACHE="1"
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_SEPARATOR=" "
