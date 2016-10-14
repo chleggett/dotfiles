@@ -64,13 +64,13 @@ colorscheme solarized
 
 " Shortcuts and Keybindings """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let mapleader=" "                		" Change the <Leader> key
-map <Leader>n    :set invrelativenumber<CR>  	" Toggle relative line numbers by typing <Leader>n
-map <Leader>h    :nohl<CR>       		" Disable highlighting after a search
-map <Leader>sw   :StripWhitespace<CR>		" Strip trailing whitespace
-map <Leader>l    :set list!<CR>  		" Toggle invisible characters
-map <Leader>p    :set invpaste<CR>  		" Toggle paste mode.
-map <Leader>w    :set invwrap<CR>  		" Toggle wrap mode.
+let mapleader=" "                        	" Change the <Leader> key
+map <Leader>n    :set invnu invrnu<CR>   	" Toggle relative line numbers by typing <Leader>n
+map <Leader>h    :nohl<CR>               	" Disable highlighting after a search
+map <Leader>sw   :StripWhitespace<CR>    	" Strip trailing whitespace
+map <Leader>l    :set list!<CR>          	" Toggle invisible characters
+map <Leader>p    :set invpaste<CR>       	" Toggle paste mode.
+map <Leader>w    :set invwrap<CR>        	" Toggle wrap mode.
 
 " Keybindings for buffers
 map <Leader>bb   :buffers<CR>:buffer<Space>
