@@ -46,6 +46,7 @@ PATH="$PATH:/Users/cleggett/bin-is"
 PATH="$PATH:/opt/X11/bin"
 PATH="$PATH:/usr/local/MacGPG2/bin"
 PATH="$PATH:/Applications/Splunk/bin"
+PATH="$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin"
 export PATH
 
 
@@ -65,6 +66,7 @@ alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
+alias networkMiner="mono '/Users/cleggett/Dropbox (Georgia Tech)/Applications/NetworkMiner_2-0/NetworkMiner.exe'"
 
 
 ## Save and share history ##############################
