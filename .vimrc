@@ -14,19 +14,19 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Add plugins
-Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'bling/vim-bufferline'
+Plugin 'neilagabriel/vim-geeknote'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'raimondi/delimitmate'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
 Plugin 'shime/vim-livedown'
-Plugin 'neilagabriel/vim-geeknote'
-Plugin 'valloric/youcompleteme'
-Plugin 'raimondi/delimitmate'
+Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
