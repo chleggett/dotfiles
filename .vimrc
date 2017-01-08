@@ -54,6 +54,8 @@ set splitbelow                   " Open horizontal splits below
 set splitright                   " Open vertical splits to the right
 set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
 set clipboard=unnamed		 " Use system clipboard
+set ignorecase                   " Case of normal letters is ignored in search
+set smartcase			 " Ignore case when the pattern contains only lowercase
 
 " Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
