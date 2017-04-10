@@ -64,8 +64,6 @@ alias numbers="open -a Numbers"
 alias pg="ping 8.8.8.8"
 alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
-alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
-alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
 alias networkMiner="mono '/Users/cleggett/Dropbox (Georgia Tech)/Applications/NetworkMiner_2-0/NetworkMiner.exe'"
 
 
