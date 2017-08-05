@@ -28,6 +28,7 @@ Plugin 'shime/vim-livedown'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'valloric/youcompleteme'
+Plugin 'vim-scripts/scrollfix'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -129,3 +130,8 @@ let delimitMateAutoClose=1
 
 " YouCompleteMe """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ycm_autoclose_preview_window_after_completion=1
+
+" Plugin 'vim-scripts/scrollfix' """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:scrollfix=25
+let g:fixeof=0
+
