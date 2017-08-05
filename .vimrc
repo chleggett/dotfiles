@@ -36,26 +36,27 @@ filetype plugin indent on
 " Main Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set backspace=indent,eol,start   " Make backspace work like it does most other apps
-set shiftwidth=4                 " Indent 4 columns
-set relativenumber		 " Enable relative line numbering
-set number                       " Set current line to actual line number
-set textwidth=80                 " Wrap after 80 columns
-set nowrap                       " Do not wrap long lines by default
+set clipboard=unnamed		 " Use system clipboard
 set cpoptions+=$                 " Add a $ to the end of a change buffer
-set incsearch                    " Incremental search as you type characters
-set hlsearch                     " Highlight search results
-set cursorline                   " Highlight the current line
 set cursorcolumn                 " Highlight the current line
-set hidden                       " Use hidden buffers by default
-set laststatus=2                 " Set laststatus to always to show status bar
-set virtualedit=all              " Allow cursor to move anywhere regardless of the underlying text
+set cursorline                   " Highlight the current line
 set foldmethod=syntax            " Auto fold based on syntax
+set hidden                       " Use hidden buffers by default
+set hlsearch                     " Highlight search results
+set ignorecase                   " Case of normal letters is ignored in search
+set incsearch                    " Incremental search as you type characters
+set laststatus=2                 " Set laststatus to always to show status bar
+set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
+set mouse=a                      " Mouse support
+set nowrap                       " Do not wrap long lines by default
+set number                       " Set current line to actual line number
+set relativenumber		 " Enable relative line numbering
+set shiftwidth=4                 " Indent 4 columns
+set smartcase			 " Ignore case when the pattern contains only lowercase
 set splitbelow                   " Open horizontal splits below
 set splitright                   " Open vertical splits to the right
-set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
-set clipboard=unnamed		 " Use system clipboard
-set ignorecase                   " Case of normal letters is ignored in search
-set smartcase			 " Ignore case when the pattern contains only lowercase
+set textwidth=80                 " Wrap after 80 columns
+set virtualedit=all              " Allow cursor to move anywhere regardless of the underlying text
 
 " Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
