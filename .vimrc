@@ -1,8 +1,7 @@
 " Charles H. Leggett's .vimrc
 " There are many like it, but this one is mine.
 
-" Vundle Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+"""" Vundle Config """"
 set nocompatible
 filetype off
 
@@ -34,8 +33,8 @@ Plugin 'vim-scripts/scrollfix'
 call vundle#end()
 filetype plugin indent on
 
-" Main Config """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""" Main Config """"
 set backspace=indent,eol,start   " Make backspace work like it does most other apps
 set clipboard=unnamed		 " Use system clipboard
 set cpoptions+=$                 " Add a $ to the end of a change buffer
@@ -59,16 +58,16 @@ set splitright                   " Open vertical splits to the right
 set textwidth=80                 " Wrap after 80 columns
 set virtualedit=all              " Allow cursor to move anywhere regardless of the underlying text
 
-" Colorscheme """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""" Colorscheme """"
 syntax enable
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
 
-" Shortcuts and Keybindings """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""" Shortcuts and Keybindings """"
 let mapleader=" "                               " Use space as the leader
 nnoremap <Space> <Nop>                          " Prevent space from also moving when used as leader
 
@@ -100,38 +99,44 @@ nnoremap <C-t>c  :tabclose<CR>
 cnoreabbrev <expr> help ((getcmdtype() is# ':' && getcmdline() is# 'help')?('vert help'):('help'))
 cnoreabbrev <expr> h ((getcmdtype() is# ':' && getcmdline() is# 'h')?('vert h'):('h'))
 
-" VimPager """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""" VimPager """"
 " Turn off scroll for VimPager to unbreak search (https://github.com/rkitover/vimpager/issues/30)
 let vimpager_scrolloff = 0
 
-" vim-airline (with bufferline extension) """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""" Plugin 'airblade/vim-gitgutter' """"
+map <Leader>g  :GitGutterSignsToggle<CR>
+
+
+"""" Plugin 'bling/vim-airline' """"
 let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 
-" NERDTree """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""" Plugin 'vim-scripts/scrollfix' """"
+let g:scrollfix=25
+let g:fixeof=0
+
+
+"""" NERDTree """"
 map <Leader>nt  :NERDTreeToggle<CR> " Toggle NERDTree on and off by typing <Leader>\
 let NERDTreeChDirMode=2             " Make NERDTree cd to directory when root is changed
 let NERDTreeShowBookmarks=1         " Show NERDTree bookmarks by default.
 
-" vim-gitgutter """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-map <Leader>g  :GitGutterSignsToggle<CR>
-
-" livedown """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""" livedown """"
 map <Leader>ld :LivedownToggle<CR> " Toggle Livedown Preview
 
-" Geeknote """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""" Geeknote """"
 noremap <Leader>gn :Geeknote<cr>
 
-" delimitMate """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""" delimitMate """"
 let delimitMateAutoClose=1
 
-" YouCompleteMe """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""" YouCompleteMe """"
 let g:ycm_autoclose_preview_window_after_completion=1
 
-" Plugin 'vim-scripts/scrollfix' """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:scrollfix=25
-let g:fixeof=0
 
