@@ -16,18 +16,18 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
-Plugin 'bling/vim-bufferline'
-Plugin 'chrisbra/csv.vim'
-Plugin 'neilagabriel/vim-geeknote'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'raimondi/delimitmate'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'shime/vim-livedown'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-Plugin 'valloric/youcompleteme'
+Plugin 'rkitover/vimpager'
 Plugin 'vim-scripts/scrollfix'
+" Plugin 'bling/vim-bufferline'
+" Plugin 'chrisbra/csv.vim'
+" Plugin 'raimondi/delimitmate'
+" Plugin 'scrooloose/nerdtree'
+" Plugin 'scrooloose/syntastic'
+" Plugin 'shime/vim-livedown'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'tpope/vim-surround'
+" Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -126,10 +126,6 @@ let NERDTreeShowBookmarks=1         " Show NERDTree bookmarks by default.
 
 """" livedown """"
 map <Leader>ld :LivedownToggle<CR> " Toggle Livedown Preview
-
-
-"""" Geeknote """"
-noremap <Leader>gn :Geeknote<cr>
 
 
 """" delimitMate """"
