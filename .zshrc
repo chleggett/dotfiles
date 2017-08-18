@@ -35,18 +35,9 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 if [ "$TMUX" = "" ]; then exec tmux; fi
 
 ## Set up environment ##################################
-PATH="/bin"
-PATH="$PATH:/sbin"
-PATH="$PATH:/usr/local/bin"
-PATH="$PATH:/usr/local/sbin"
-PATH="$PATH:/usr/bin"
-PATH="$PATH:/usr/sbin"
-PATH="$PATH:/Users/cleggett/bin"
-PATH="$PATH:/Users/cleggett/bin-is"
-PATH="$PATH:/opt/X11/bin"
-PATH="$PATH:/usr/local/MacGPG2/bin"
-PATH="$PATH:/Applications/Splunk/bin"
-PATH="$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin"
+PATH="/usr/local/opt/python/libexec/bin:$PATH"
+PATH="/Users/cleggett/bin:$PATH"
+PATH="/Users/cleggett/bin-is:$PATH"
 export PATH
 
 
