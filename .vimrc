@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
+Plugin 'mrtazz/simplenote.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'rkitover/vimpager'
 Plugin 'vim-scripts/scrollfix'
@@ -113,6 +114,10 @@ map <Leader>g  :GitGutterSignsToggle<CR>
 let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 
 
+"""" Plugin 'mrtazz/simplenote.vim' """"
+source .vimrc.simplenote
+
+
 """" Plugin 'vim-scripts/scrollfix' """"
 let g:scrollfix=25
 let g:fixeof=0
@@ -130,7 +135,6 @@ map <Leader>ld :LivedownToggle<CR> " Toggle Livedown Preview
 
 """" delimitMate """"
 let delimitMateAutoClose=1
-
 
 """" YouCompleteMe """"
 let g:ycm_autoclose_preview_window_after_completion=1
