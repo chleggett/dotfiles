@@ -75,9 +75,9 @@ compinit
 ## Use Vim everywhere! #################################
 bindkey -v
 export KEYTIMEOUT=1
-export PAGER=vimpager
-alias less=$PAGER
-alias zless=$PAGER
+#export PAGER=vimpager
+#alias less=$PAGER
+#alias zless=$PAGER
 export EDITOR=vim
 
 

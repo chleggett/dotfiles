@@ -107,7 +107,9 @@ cnoreabbrev <expr> h ((getcmdtype() is# ':' && getcmdline() is# 'h')?('vert h'):
 
 """" VimPager """"
 " Turn off scroll for VimPager to unbreak search (https://github.com/rkitover/vimpager/issues/30)
-let vimpager_scrolloff = 0
+let g:vimpager = {}
+let g:less     = {}
+let g:less.enabled=0
 
 
 """" Plugin 'airblade/vim-gitgutter' """"
