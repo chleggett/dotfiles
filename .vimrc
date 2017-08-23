@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
+Plugin 'morhetz/gruvbox'
 Plugin 'mrtazz/simplenote.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'rkitover/vimpager'
@@ -63,9 +64,9 @@ set virtualedit=all              " Allow cursor to move anywhere regardless of t
 """" Colorscheme """"
 syntax enable
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-colorscheme solarized
+"let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
+colorscheme gruvbox
 
 
 """" Shortcuts and Keybindings """"
