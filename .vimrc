@@ -53,6 +53,7 @@ set mouse=a                      " Mouse support
 set nowrap                       " Do not wrap long lines by default
 set number                       " Set current line to actual line number
 set relativenumber		 " Enable relative line numbering
+set tabstop=4                   " Tab is 4 spaces
 set shiftwidth=4                 " Indent 4 columns
 set smartcase			 " Ignore case when the pattern contains only lowercase
 set splitbelow                   " Open horizontal splits below
@@ -60,6 +61,7 @@ set splitright                   " Open vertical splits to the right
 set textwidth=80                 " Wrap after 80 columns
 set virtualedit=all              " Allow cursor to move anywhere regardless of the underlying text
 
+autocmd FileType markdown setlocal spell
 
 """" Colorscheme """"
 syntax enable
@@ -118,6 +120,19 @@ let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 """" Plugin 'mrtazz/simplenote.vim' """"
 source .vimrc.simplenote
 
+let g:SimplenoteSortOrder='pinned,title'
+let g:SimplenoteFiletype='markdown'
+let g:SimplenoteSingleWindow=1
+let g:SimplenoteVertical=0
+let g:SimplenoteListSize=10
+let g:SimplenoteNoteFormat="%N%>%T     "
+
+map <Leader>sl  :SimplenoteList 
+map <Leader>sn  :SimplenoteNew<CR>
+map <Leader>st  :SimplenoteTag<CR>
+map <Leader>sd  :SimplenoteDelete<CR>
+map <Leader>sp  :SimplenotePin<CR>
+map <Leader>su  :SimplenoteUnpin<CR>
 
 """" Plugin 'vim-scripts/scrollfix' """"
 let g:scrollfix=25
