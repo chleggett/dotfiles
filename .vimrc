@@ -72,8 +72,9 @@ colorscheme gruvbox
 
 
 """" Shortcuts and Keybindings """"
-let mapleader=" "                               " Use space as the leader
-nnoremap <Space> <Nop>                          " Prevent space from also moving when used as leader
+nmap <space> <leader>
+" let mapleader=" "                               " Use space as the leader
+" noremap <Space> <Nop>                           " Prevent space from also moving when used as leader
 
 map <Leader>n    :set invnu invrnu<CR>   	" Toggle relative line numbers by typing <Leader>n
 map <Leader>h    :nohl<CR>               	" Disable highlighting after a search
