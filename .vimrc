@@ -17,7 +17,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'morhetz/gruvbox'
-Plugin 'mrtazz/simplenote.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'rkitover/vimpager'
 Plugin 'vim-scripts/scrollfix'
@@ -119,23 +118,6 @@ map <Leader>g  :GitGutterSignsToggle<CR>
 """" Plugin 'bling/vim-airline' """"
 let g:bufferline_echo=0  " Hide the default bufferline and use airline's instead
 
-
-"""" Plugin 'mrtazz/simplenote.vim' """"
-source .vimrc.simplenote
-
-let g:SimplenoteSortOrder='pinned,title'
-let g:SimplenoteFiletype='markdown'
-let g:SimplenoteSingleWindow=1
-let g:SimplenoteVertical=0
-let g:SimplenoteListSize=10
-let g:SimplenoteNoteFormat="%N%>%T     "
-
-map <Leader>sl  :SimplenoteList 
-map <Leader>sn  :SimplenoteNew<CR>
-map <Leader>st  :SimplenoteTag<CR>
-map <Leader>sd  :SimplenoteDelete<CR>
-map <Leader>sp  :SimplenotePin<CR>
-map <Leader>su  :SimplenoteUnpin<CR>
 
 """" Plugin 'vim-scripts/scrollfix' """"
 let g:scrollfix=25
