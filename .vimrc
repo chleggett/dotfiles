@@ -19,13 +19,13 @@ Plugin 'bling/vim-airline'
 Plugin 'morhetz/gruvbox'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'rkitover/vimpager'
+Plugin 'shime/vim-livedown'
 Plugin 'vim-scripts/scrollfix'
 " Plugin 'bling/vim-bufferline'
 " Plugin 'chrisbra/csv.vim'
 " Plugin 'raimondi/delimitmate'
 " Plugin 'scrooloose/nerdtree'
 " Plugin 'scrooloose/syntastic'
-" Plugin 'shime/vim-livedown'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'tpope/vim-surround'
 " Plugin 'valloric/youcompleteme'
@@ -130,7 +130,7 @@ let NERDTreeChDirMode=2             " Make NERDTree cd to directory when root is
 let NERDTreeShowBookmarks=1         " Show NERDTree bookmarks by default.
 
 
-"""" livedown """"
+"""" Plugin 'shime/vim-livedown' """"
 map <Leader>ld :LivedownToggle<CR> " Toggle Livedown Preview
 
 
