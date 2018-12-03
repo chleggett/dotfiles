@@ -92,4 +92,4 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 
 ## Source .zshrc.homebrew for HOMEBREW_GITHUB_API_TOKEN
-source ~/.zshrc.homebrew
+#source ~/.zshrc.homebrew
