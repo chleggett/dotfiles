@@ -90,8 +90,4 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-
-## Source .zshrc.homebrew for HOMEBREW_GITHUB_API_TOKEN
-#source ~/.zshrc.homebrew
-
 antigen apply
