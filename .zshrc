@@ -1,29 +1,20 @@
 # Charles H. Leggett's .zshrc
 # there are many like it, but this one is mine.
 
-## Use Antigen to manage plugins #######################
-source ~/.antigen/antigen.zsh
-
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-history-substring-search
-antigen bundle olivierverdier/zsh-git-prompt
+source /usr/local/opt/zsh-git-prompt/zshrc.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 ## Setup prompt ########################################
 PROMPT='%n@%m %c %# '
 RPROMPT='$(git_super_status)'
 
-GIT_PROMPT_EXECUTABLE="haskell"
+# GIT_PROMPT_EXECUTABLE="haskell"
 ZSH_THEME_GIT_PROMPT_CACHE="1"
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_SEPARATOR=" "
 ZSH_THEME_GIT_PROMPT_BRANCH="%{$fg[yellow]%}"
-ZSH_THEME_GIT_PROMPT_STAGED="%{$fg[red]%}%{●%G%}"
-ZSH_THEME_GIT_PROMPT_CONFLICTS="%{$fg[red]%}%{✖%G%}"
-ZSH_THEME_GIT_PROMPT_CHANGED="%{$fg[blue]%}%{✚%G%}"
-ZSH_THEME_GIT_PROMPT_BEHIND=" %{↓%G%}"
-ZSH_THEME_GIT_PROMPT_AHEAD=" %{↑%G%}"
-ZSH_THEME_GIT_PROMPT_UNTRACKED=" %{…%G%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}%{✔%G%}"
 
 ## Make things pretty ##################################
@@ -83,6 +74,7 @@ export EDITOR=vim
 
 ## Setup zsh-history-substring-search ##################
 # bind UP and DOWN arrow keys
+
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
@@ -90,4 +82,3 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-antigen apply
