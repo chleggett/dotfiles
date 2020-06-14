@@ -65,8 +65,7 @@ autocmd FileType markdown setlocal spell
 """" Colorscheme """"
 syntax enable
 set background=dark
-"let g:solarized_termcolors=256
-"let g:solarized_termtrans=1
+let g:gruvbox_sign_column='dark0'
 colorscheme gruvbox
 
 
