@@ -49,6 +49,7 @@ set laststatus=2                 " Set laststatus to always to show status bar
 set lazyredraw                   " Don’t update screen during macro and script execution
 set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
 set mouse=a                      " Mouse support
+set noshowmode                   " Let airline handle this
 set nowrap                       " Do not wrap long lines by default
 set number                       " Set current line to actual line number
 set relativenumber               " Enable relative line numbering
