@@ -1,5 +1,6 @@
 .CFUserTextEncoding
 .DS_Store
+.NERDTreeBookmarks
 .Trash/
 .anyconnect
 .cisco/
@@ -12,6 +13,7 @@
 .idlerc/
 .lesshst
 .msf4/
+.npm/
 .python_history
 .ssh/
 .stack/
@@ -25,6 +27,7 @@
 .zsh_history
 .zshrc.zwc
 Applications/
+Creative Cloud Files/
 Desktop/
 Documents/
 Downloads
