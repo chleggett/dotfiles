@@ -1,32 +1,19 @@
 .CFUserTextEncoding
-.DS_Store
-.NERDTreeBookmarks
-.Trash/
 .anyconnect
 .cisco/
 .config/
 .cups/
 .dropbox/
-.gem/
-.gnupg/
-.gnupg_pre_2.1/
 .idlerc/
-.lesshst
-.msf4/
 .npm/
 .python_history
 .ssh/
-.stack/
 .swp
-.vagrant.d/
-.vim/*
+.vim/
 .viminfo
-.w3m/
 .wget-hsts
 .zcompdump
 .zsh_history
-.zshrc.zwc
-Applications/
 Creative Cloud Files/
 Desktop/
 Documents/
@@ -37,5 +24,4 @@ Movies/
 Music/
 Pictures/
 Public/
-VirtualBox VMs/
 github.com/
