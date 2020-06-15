@@ -26,6 +26,8 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 #if [ "$TMUX" = "" ]; then exec tmux; fi
 
 ## Set up environment ##################################
+export TERM="xterm-256color"
+
 PATH="$PATH:/Users/cleggett/bin"
 PATH="$PATH:/Users/cleggett/bin-is"
 PATH="/usr/local/opt/python/libexec/bin:$PATH"
