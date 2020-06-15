@@ -5,6 +5,7 @@
 .cups/
 .dropbox/
 .idlerc/
+.lesshst
 .npm/
 .python_history
 .ssh/
