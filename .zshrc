@@ -21,7 +21,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}%{✔%G%}"
 export CLICOLOR=1
 
 ## Run tmux if not already in a tmux session ###########
-#if [ "$TMUX" = "" ]; then exec tmux; fi
+if [ "$TMUX" = "" ]; then exec tmux; fi
 
 ## Set up environment ##################################
 export TERM="xterm-256color"
