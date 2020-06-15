@@ -19,8 +19,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}%{✔%G%}"
 
 ## Make things pretty ##################################
 export CLICOLOR=1
-# LSCOLORS string to approximate solarized colorscheme
-export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 ## Run tmux if not already in a tmux session ###########
 #if [ "$TMUX" = "" ]; then exec tmux; fi
