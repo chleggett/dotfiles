@@ -6,6 +6,7 @@
 .dropbox/
 .idlerc/
 .lesshst
+.local/
 .npm/
 .python_history
 .ssh/
