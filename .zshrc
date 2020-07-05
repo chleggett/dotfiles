@@ -35,7 +35,6 @@ export TERM="xterm-256color"
 
 PATH="$PATH:/Users/cleggett/bin"
 PATH="$PATH:/Users/cleggett/bin-is"
-PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH
 
 
@@ -53,7 +52,6 @@ alias numbers="open -a Numbers"
 alias pg="ping 8.8.8.8"
 alias nmap="nmap -Pn"
 alias chbspasswd="chbspasswd -w 3 -b d,1 -a s,1"
-alias networkMiner="mono '/Users/cleggett/Dropbox (Georgia Tech)/Applications/NetworkMiner_2-0/NetworkMiner.exe'"
 
 
 ## Save and share history ##############################
