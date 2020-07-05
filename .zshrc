@@ -28,6 +28,7 @@ export TERM="xterm-256color"
 
 PATH="$PATH:/Users/cleggett/bin"
 PATH="$PATH:/Users/cleggett/bin-is"
+PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH
 
 
