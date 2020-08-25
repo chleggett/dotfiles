@@ -1,3 +1,4 @@
+.Azure/
 .CFUserTextEncoding
 .Trash
 .anyconnect
@@ -17,6 +18,7 @@
 .viminfo
 .vscode/
 .wget-hsts
+.zcompcache/
 .zcompdump
 .zsh_history
 Applications/
