@@ -1,3 +1,7 @@
+;; Charles H. Leggett's .emacs
+;; There are many like it, but this one is mine.
+
+;; Set up package.el to work with MELPA
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
@@ -15,6 +19,7 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Enable Evil
 (require 'evil)
 (evil-mode 1)
 
