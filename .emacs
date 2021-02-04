@@ -17,3 +17,5 @@
 
 (require 'evil)
 (evil-mode 1)
+
+(load-theme 'tango-dark)
