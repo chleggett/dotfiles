@@ -5,6 +5,7 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
+(package-refresh-contents)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -18,6 +19,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; Download Evil
+(unless (package-installed-p 'evil)
+  (package-install 'evil))
 
 ;; Enable Evil
 (require 'evil)
