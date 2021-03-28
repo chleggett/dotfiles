@@ -21,6 +21,7 @@
 .zcompcache/
 .zcompdump
 .zsh_history
+.zsh_sessions/
 Applications/
 Creative Cloud Files/
 Desktop/
