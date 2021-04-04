@@ -47,7 +47,8 @@ set ignorecase                   " Case of normal letters is ignored in search
 set incsearch                    " Incremental search as you type characters
 set laststatus=2                 " Set laststatus to always to show status bar
 set lazyredraw                   " Don’t update screen during macro and script execution
-set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
+set list                         " idk except that it's needed for the next line
+set listchars=tab:>-             " tabs suck
 set mouse=a                      " Mouse support
 set noshowmode                   " Let airline handle this
 set nowrap                       " Do not wrap long lines by default
