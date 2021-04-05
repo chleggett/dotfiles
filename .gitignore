@@ -1,21 +1,27 @@
+*.swp
 .Azure/
 .CFUserTextEncoding
 .Trash
 .anyconnect
 .cache/
 .cisco/
+.config/NuGet/
+.config/wireshark/
 .cups/
 .dropbox/
+.emacs.d/
 .idlerc/
 .lesshst
 .local/
 .npm/
+.pylint.d/
 .python_history
 .ssh/
-.swp
+.vagrant.d/
 .vim/
 .viminfo
 .vscode/
+.w3m/
 .wget-hsts
 .zcompcache/
 .zcompdump
@@ -28,6 +34,7 @@ Documents/
 Downloads
 Dropbox/
 Georgia Gwinnett College/
+ISOs/
 Library/
 Movies/
 Music/
@@ -36,5 +43,8 @@ Pictures/
 Public/
 TheCollective
 Virtual Machines.localized/
+VirtualBox VMs/
+Zotero/
 github.com/
 github.gatech.edu/
+vagrants/
