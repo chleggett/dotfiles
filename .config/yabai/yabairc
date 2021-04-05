@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+# Charles H. Leggett's yabairc
+# There are many like it, but this one is mine.
+
+# Windows are tiled with "binary space partitioning"
+yabai -m config layout bsp
+
+# Override default layout for space 2 only
+# yabai -m config --space 2 layout float
+
+# set mouse follows focus mode (default: off)
+yabai -m config mouse_follows_focus on
+
+# float system preferences
+yabai -m rule --add app="^System Preferences$" manage=off
+
