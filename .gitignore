@@ -6,6 +6,8 @@
 .cache/
 .cisco/
 .config/NuGet/
+.config/nvim/lua/
+.config/nvim/plugin/
 .config/wireshark/
 .cups/
 .dropbox/
