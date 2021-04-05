@@ -1,0 +1,22 @@
+# Charles H. Leggett's skhdrc
+# There are many like it, but this one is mine.
+
+# center on screen
+# ctrl - s : yabai -m window --grid 4:4:1:1:2:2
+
+# zoom tiled
+ctrl - a : yabai -m window --toggle zoom-fullscreen
+
+# focus window
+ctrl - s : yabai -m window --focus next || yabai -m window --focus first
+ctrl - h : yabai -m window --focus west
+ctrl - j : yabai -m window --focus south
+ctrl - k : yabai -m window --focus north
+ctrl - l : yabai -m window --focus east
+
+# swap window
+#ctrl - n : yabai -m window --swap west
+#ctrl - m : yabai -m window --swap south
+#ctrl - , : yabai -m window --swap north
+#ctrl - . : yabai -m window --swap east
+
