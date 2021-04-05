@@ -62,6 +62,7 @@ set splitbelow                   " Open horizontal splits below
 set splitright                   " Open vertical splits to the right
 set textwidth=80                 " Wrap after 80 columns
 set virtualedit=all              " Allow cursor to move anywhere regardless of the underlying text
+set spell                        " Spellcheck
 
 autocmd FileType markdown setlocal spell
 
