@@ -36,7 +36,7 @@ filetype plugin indent on
 
 """" Main Config """"
 set backspace=indent,eol,start   " Make backspace work like it does most other apps
-set clipboard=unnamed   		 " Use system clipboard
+set clipboard=unnamed            " Use system clipboard
 set cpoptions+=$                 " Add a $ to the end of a change buffer
 set cursorcolumn                 " Highlight the current line
 set cursorline                   " Highlight the current line
@@ -47,7 +47,8 @@ set ignorecase                   " Case of normal letters is ignored in search
 set incsearch                    " Incremental search as you type characters
 set laststatus=2                 " Set laststatus to always to show status bar
 set lazyredraw                   " Don’t update screen during macro and script execution
-set listchars=tab:▸\ ,eol:¬      " Use 'fancy' invisible characters
+set list                         " idk except that it's needed for the next line
+set listchars=tab:>-             " tabs suck
 set mouse=a                      " Mouse support
 set noshowmode                   " Let airline handle this
 set nowrap                       " Do not wrap long lines by default
@@ -75,12 +76,12 @@ nmap <space> <leader>
 " let mapleader=" "                         " Use space as the leader
 " noremap <Space> <Nop>                     " Prevent space from also moving when used as leader
 
-map <Leader>n    :set invnu invrnu<CR>   	" Toggle relative line numbers by typing <Leader>n
-map <Leader>h    :nohl<CR>               	" Disable highlighting after a search
-map <Leader>sw   :StripWhitespace<CR>    	" Strip trailing whitespace
-map <Leader>l    :set list!<CR>          	" Toggle invisible characters
-map <Leader>p    :set invpaste<CR>       	" Toggle paste mode.
-map <Leader>w    :set invwrap<CR>        	" Toggle wrap mode.
+map <Leader>n    :set invnu invrnu<CR>      " Toggle relative line numbers by typing <Leader>n
+map <Leader>h    :nohl<CR>                  " Disable highlighting after a search
+map <Leader>sw   :StripWhitespace<CR>       " Strip trailing whitespace
+map <Leader>l    :set list!<CR>             " Toggle invisible characters
+map <Leader>p    :set invpaste<CR>          " Toggle paste mode.
+map <Leader>w    :set invwrap<CR>           " Toggle wrap mode.
 
 " Keybindings for buffers
 map <Leader>bb   :buffers<CR>:buffer<Space>
