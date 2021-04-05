@@ -28,6 +28,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/scrollfix'
 "Plugin 'vim-syntastic/syntastic'
 "Plugin 'ycm-core/youcompleteme'
+Plugin 'davidhalter/jedi-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -76,12 +77,21 @@ nmap <space> <leader>
 " let mapleader=" "                         " Use space as the leader
 " noremap <Space> <Nop>                     " Prevent space from also moving when used as leader
 
+<<<<<<< Updated upstream
 map <Leader>n    :set invnu invrnu<CR>      " Toggle relative line numbers by typing <Leader>n
 map <Leader>h    :nohl<CR>                  " Disable highlighting after a search
 map <Leader>sw   :StripWhitespace<CR>       " Strip trailing whitespace
 map <Leader>l    :set list!<CR>             " Toggle invisible characters
 map <Leader>p    :set invpaste<CR>          " Toggle paste mode.
 map <Leader>w    :set invwrap<CR>           " Toggle wrap mode.
+=======
+map <Leader>n    :set invnu invrnu<CR>   	" Toggle relative line numbers by typing <Leader>n
+map <Leader>h    :nohl<CR>               	" Disable highlighting after a search
+map <Leader>s    :StripWhitespace<CR>    	" Strip trailing whitespace
+map <Leader>l    :set list!<CR>          	" Toggle invisible characters
+map <Leader>p    :set invpaste<CR>       	" Toggle paste mode.
+map <Leader>w    :set invwrap<CR>        	" Toggle wrap mode.
+>>>>>>> Stashed changes
 
 " Keybindings for buffers
 map <Leader>bb   :buffers<CR>:buffer<Space>
