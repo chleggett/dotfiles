@@ -1,22 +1,48 @@
 # Charles H. Leggett's skhdrc
 # There are many like it, but this one is mine.
 
-# center on screen
-# ctrl - s : yabai -m window --grid 4:4:1:1:2:2
+# Focus space with mission-control index 3
+ctrl + 1 : yabai -m space --focus 1
+ctrl + 2 : yabai -m space --focus 2
+ctrl + 3 : yabai -m space --focus 3
+ctrl + 4 : yabai -m space --focus 4
+ctrl + 5 : yabai -m space --focus 5
+ctrl + 6 : yabai -m space --focus 6
+ctrl + 7 : yabai -m space --focus 7
+ctrl + 8 : yabai -m space --focus 8
+ctrl + 9 : yabai -m space --focus 9
+ctrl + 0 : yabai -m space --focus 0
+
+# make floating window fill screen
+ctrl + s : yabai -m window --grid 1:1:0:0:1:1
 
 # zoom tiled
 ctrl - a : yabai -m window --toggle zoom-fullscreen
 
+# split vertically or horizontally with its parent node
+ctrl - m : yabai -m window --toggle split
+
+# Focus next space by mission-control index if one exists, otherwise focus the first space
+ctrl - q : yabai -m space --focus next || yabai -m space --focus first
+
+# Focus previous space by mission-control index if one exists, otherwise focus the last space
+ctrl - w : yabai -m space --focus prev || yabai -m space --focus last
+
 # focus window
-ctrl - s : yabai -m window --focus next || yabai -m window --focus first
 ctrl - h : yabai -m window --focus west
 ctrl - j : yabai -m window --focus south
 ctrl - k : yabai -m window --focus north
 ctrl - l : yabai -m window --focus east
 
 # swap window
-#ctrl - n : yabai -m window --swap west
-#ctrl - m : yabai -m window --swap south
-#ctrl - , : yabai -m window --swap north
-#ctrl - . : yabai -m window --swap east
+ctrl - y : yabai -m window --swap west
+ctrl - u : yabai -m window --swap south
+ctrl - i : yabai -m window --swap north
+ctrl - o : yabai -m window --swap east
+
+# move window
+ctrl - n : yabai -m warp --swap west
+ctrl - m : yabai -m warp --swap south
+ctrl - , : yabai -m warp --swap north
+ctrl - . : yabai -m warp --swap east
 
