@@ -9,24 +9,29 @@ yabai -m config layout bsp
 # New window spawns to the right if vertical split, or bottom if horizontal split
 yabai -m config window_placement second_child
 
-# Set all padding and gaps to 20pt (default: 0)
-yabai -m config top_padding    1
-yabai -m config bottom_padding 1
-yabai -m config left_padding   1
-yabai -m config right_padding  1
-yabai -m config window_gap     6
+# Set padding and gaps (default: 0)
+# yabai -m config top_padding    1
+# yabai -m config bottom_padding 1
+# yabai -m config left_padding   1
+# yabai -m config right_padding  1
+# yabai -m config window_gap     6
 
 # on or off (default: off)
 yabai -m config auto_balance on
 
 # set focus follows mouse mode (default: off, options: off, autoraise, autofocus)
-yabai -m config focus_follows_mouse autoraise
+#yabai -m config focus_follows_mouse autoraise
 
 # floating windows are always on top (default: off)
 yabai -m config window_topmost on
 
 # float system preferences
-yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^1Password\ 7$" manage=off
+yabai -m rule --add app="^Cisco\ AnyConnect.*$" manage=off
 yabai -m rule --add app="^Dictionary$" manage=off
+yabai -m rule --add app="^Microsoft\ Teams$" manage=off
+yabai -m rule --add app="^Music$" manage=off
+yabai -m rule --add app="^Podcasts$" manage=off
+yabai -m rule --add app="^Speedtest$" manage=off
+yabai -m rule --add app="^System Preferences$" manage=off
 
