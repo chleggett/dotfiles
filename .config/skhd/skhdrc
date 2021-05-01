@@ -2,47 +2,40 @@
 # There are many like it, but this one is mine.
 
 # Focus space with mission-control index 3
-ctrl + 1 : yabai -m space --focus 1
-ctrl + 2 : yabai -m space --focus 2
-ctrl + 3 : yabai -m space --focus 3
-ctrl + 4 : yabai -m space --focus 4
-ctrl + 5 : yabai -m space --focus 5
-ctrl + 6 : yabai -m space --focus 6
-ctrl + 7 : yabai -m space --focus 7
-ctrl + 8 : yabai -m space --focus 8
-ctrl + 9 : yabai -m space --focus 9
-ctrl + 0 : yabai -m space --focus 0
+ctrl - 1 : yabai -m space --focus 1
+ctrl - 2 : yabai -m space --focus 2
+ctrl - 3 : yabai -m space --focus 3
+ctrl - 4 : yabai -m space --focus 4
+ctrl - 5 : yabai -m space --focus 5
+ctrl - 6 : yabai -m space --focus 6
+ctrl - 7 : yabai -m space --focus 7
+ctrl - 8 : yabai -m space --focus 8
+ctrl - 9 : yabai -m space --focus 9
+ctrl - 0 : yabai -m space --focus 0
 
-# make floating window fill screen
-ctrl + s : yabai -m window --grid 1:1:0:0:1:1
+# Zoom window
+ctrl - space : yabai -m window --toggle zoom-fullscreen
 
-# zoom tiled
-ctrl - a : yabai -m window --toggle zoom-fullscreen
+# Move window
+ctrl - u : yabai -m window --space prev ; yabai -m space --focus prev
+ctrl - i : yabai -m window --space next ; yabai -m space --focus next
+ctrl - y : yabai -m space --focus prev
+ctrl - o : yabai -m space --focus next
 
-# split vertically or horizontally with its parent node
-ctrl - m : yabai -m window --toggle split
+# Focus window
+ctrl - h     : yabai -m window --focus west  || yabai -m display --focus west
+ctrl - j     : yabai -m window --focus south || yabai -m display --focus south
+ctrl - k     : yabai -m window --focus north || yabai -m display --focus north
+ctrl - l     : yabai -m window --focus east  || yabai -m display --focus east
 
-# Focus next space by mission-control index if one exists, otherwise focus the first space
-ctrl - q : yabai -m space --focus next || yabai -m space --focus first
+ctrl - left  : yabai -m window --focus west  || yabai -m display --focus west
+ctrl - down  : yabai -m window --focus south || yabai -m display --focus south
+ctrl - up    : yabai -m window --focus north || yabai -m display --focus north
+ctrl - right : yabai -m window --focus east  || yabai -m display --focus east
 
-# Focus previous space by mission-control index if one exists, otherwise focus the last space
-ctrl - w : yabai -m space --focus prev || yabai -m space --focus last
-
-# focus window
-ctrl - h : yabai -m window --focus west
-ctrl - j : yabai -m window --focus south
-ctrl - k : yabai -m window --focus north
-ctrl - l : yabai -m window --focus east
-
-# swap window
-ctrl - y : yabai -m window --swap west
-ctrl - u : yabai -m window --swap south
-ctrl - i : yabai -m window --swap north
-ctrl - o : yabai -m window --swap east
-
-# move window
-ctrl - n : yabai -m warp --swap west
-ctrl - m : yabai -m warp --swap south
-ctrl - , : yabai -m warp --swap north
-ctrl - . : yabai -m warp --swap east
+# Swap windows
+ctrl - n     : yabai -m window --swap west   || ( yabai -m window --display west  && yabai -m window --focus recent )
+ctrl - m     : yabai -m window --swap south  || ( yabai -m window --display south && yabai -m window --focus recent )
+ctrl - 0x2B  : yabai -m window --swap north  || ( yabai -m window --display north && yabai -m window --focus recent )
+ctrl - 0x2F  : yabai -m window --swap east   || ( yabai -m window --display east  && yabai -m window --focus recent )
 
