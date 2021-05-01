@@ -38,4 +38,6 @@ ctrl - n     : yabai -m window --swap west   || ( yabai -m window --display west
 ctrl - m     : yabai -m window --swap south  || ( yabai -m window --display south && yabai -m window --focus recent )
 ctrl - 0x2B  : yabai -m window --swap north  || ( yabai -m window --display north && yabai -m window --focus recent )
 ctrl - 0x2F  : yabai -m window --swap east   || ( yabai -m window --display east  && yabai -m window --focus recent )
-
+ctrl - 0x2C  : yabai -m space --mirror y-axis
+ctrl - 0x29  : yabai -m space --mirror x-axis
+ctrl - p     : yabai -m space --rotate 270
