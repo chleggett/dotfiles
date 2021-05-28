@@ -26,12 +26,13 @@ yabai -m config auto_balance on
 #yabai -m config focus_follows_mouse autoraise
 
 # set mouse follows focus mode (default: off)
-yabai -m config mouse_follows_focus on
+#yabai -m config mouse_follows_focus on
 
 # floating windows are always on top (default: off)
-yabai -m config window_topmost on
+#yabai -m config window_topmost on
 
 # float system preferences
+yabai -m rule --add app="^1Password\ 7$" manage=off
 yabai -m rule --add app="^Cisco\ AnyConnect.*$" manage=off
 yabai -m rule --add app="^Dictionary$" manage=off
 yabai -m rule --add app="^Speedtest$" manage=off
