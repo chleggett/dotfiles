@@ -44,34 +44,9 @@
                     {
                         "manipulators": [
                             {
-                                "description": "Change fn to control+option+shift.",
+                                "description": "Change fn to option+shift.",
                                 "from": {
                                     "key_code": "fn",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_shift",
-                                        "modifiers": [
-                                            "left_control",
-                                            "left_option"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "manipulators": [
-                            {
-                                "description": "Change left_control to option+shift.",
-                                "from": {
-                                    "key_code": "left_control",
                                     "modifiers": {
                                         "optional": [
                                             "any"
