@@ -1,7 +1,7 @@
 # Charles H. Leggett's skhdrc
 # There are many like it, but this one is mine.
 
-# Focus space with mission-control index 3
+# Navigate Desktops
 ctrl - 1 : yabai -m space --focus 1
 ctrl - 2 : yabai -m space --focus 2
 ctrl - 3 : yabai -m space --focus 3
