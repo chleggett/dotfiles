@@ -1,0 +1,13 @@
+ADIF Export
+<adif_ver:5>3.1.1
+<created_timestamp:15>20220503 183212
+<programid:6>WSJT-X
+<programversion:5>2.5.4
+<eoh>
+<call:6>KP4QVQ <gridsquare:4>FK68 <mode:3>FT8 <rst_sent:3>+09 <rst_rcvd:3>-14 <qso_date:8>20220503 <time_on:6>183100 <qso_date_off:8>20220503 <time_off:6>183200 <band:3>10m <freq:9>28.074793 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <eor>
+<call:5>W3DJS <gridsquare:4>EM83 <mode:3>FT8 <rst_sent:3>+20 <rst_rcvd:3>-05 <qso_date:8>20220503 <time_on:6>213300 <qso_date_off:8>20220503 <time_off:6>213400 <band:3>10m <freq:9>28.075517 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <eor>
+<call:5>F5USK <gridsquare:4>JN03 <mode:3>FT8 <rst_sent:3>-13 <rst_rcvd:3>-17 <qso_date:8>20220503 <time_on:6>215815 <qso_date_off:8>20220503 <time_off:6>220630 <band:3>10m <freq:9>28.076453 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <tx_pwr:1>5 <eor>
+<call:5>KD3GC <gridsquare:4>EM83 <mode:3>FT8 <rst_sent:3>+09 <rst_rcvd:3>+01 <qso_date:8>20220504 <time_on:6>011345 <qso_date_off:8>20220504 <time_off:6>011445 <band:3>10m <freq:9>28.075083 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <tx_pwr:1>5 <eor>
+<call:6>PU2TXZ <gridsquare:4>GG57 <mode:3>FT8 <rst_sent:3>-10 <rst_rcvd:3>-18 <qso_date:8>20220504 <time_on:6>011515 <qso_date_off:8>20220504 <time_off:6>011615 <band:3>10m <freq:9>28.076088 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <tx_pwr:1>5 <eor>
+<call:6>PU2TXZ <gridsquare:4>GG57 <mode:3>FT8 <rst_sent:3>+04 <rst_rcvd:3>-13 <qso_date:8>20220504 <time_on:6>011745 <qso_date_off:8>20220504 <time_off:6>011845 <band:3>10m <freq:9>28.076087 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <tx_pwr:1>5 <eor>
+<call:5>KJ4GK <gridsquare:4>EM83 <mode:3>FT8 <rst_sent:3>-11 <rst_rcvd:3>-12 <qso_date:8>20220504 <time_on:6>012245 <qso_date_off:8>20220504 <time_off:6>012345 <band:3>10m <freq:9>28.074601 <station_callsign:5>W4CHL <my_gridsquare:6>EM84AA <tx_pwr:1>5 <eor>
