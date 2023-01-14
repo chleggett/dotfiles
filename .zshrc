@@ -1,9 +1,9 @@
 # Charles H. Leggett's .zshrc
 # there are many like it, but this one is mine.
 
-source /opt/homebrew/opt/zsh-git-prompt/zshrc.sh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+source /usr/local/opt/zsh-git-prompt/zshrc.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 ## Setup prompt ########################################
 PROMPT='%n@%m %c %# '
