@@ -24,6 +24,7 @@
 .jupyter/
 .lesshst
 .local/
+.logseq/
 .matplotlib/
 .npm/
 .pyenv/

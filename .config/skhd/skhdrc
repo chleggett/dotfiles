@@ -1,43 +1,61 @@
 # Charles H. Leggett's skhdrc
 # There are many like it, but this one is mine.
 
-# Navigate Desktops
-ctrl - 1 : yabai -m space --focus 1
-ctrl - 2 : yabai -m space --focus 2
-ctrl - 3 : yabai -m space --focus 3
-ctrl - 4 : yabai -m space --focus 4
-ctrl - 5 : yabai -m space --focus 5
-ctrl - 6 : yabai -m space --focus 6
-ctrl - 7 : yabai -m space --focus 7
-ctrl - 8 : yabai -m space --focus 8
-ctrl - 9 : yabai -m space --focus 9
-ctrl - 0 : yabai -m space --focus 0
-
 # Zoom window
-ctrl - space : yabai -m window --toggle zoom-fullscreen
+alt + shift - space                  : yabai -m window --toggle zoom-fullscreen
+alt + shift - m                      : yabai -m window --toggle zoom-fullscreen
+
+# Float window
+## use 'skdh -o' to find key values
+alt + shift - 0x2B                   : yabai -m window --toggle float; yabai -m window --grid 4:4:1:1:2:2
+
+# Toggle between vertical and horizontal window splits
+## use 'skdh -o' to find key values
+alt + shift - k                      : yabai -m window --toggle split || yabai -m window --swap west
+alt + shift - 0x2F                   : yabai -m window --toggle split || yabai -m window --swap west
 
 # Move window
-ctrl - u : yabai -m window --space prev ; yabai -m space --focus prev
-ctrl - i : yabai -m window --space next ; yabai -m space --focus next
-ctrl - y : yabai -m space --focus prev
-ctrl - o : yabai -m space --focus next
+ctrl - u                             : yabai -m window --space prev ; yabai -m space --focus prev
+ctrl - i                             : yabai -m window --space next ; yabai -m space --focus next
+ctrl - y                             : yabai -m space --focus prev
+ctrl - o                             : yabai -m space --focus next
 
 # Focus window
-ctrl - h     : yabai -m window --focus west  || yabai -m display --focus west
-ctrl - j     : yabai -m window --focus south || yabai -m display --focus south
-ctrl - k     : yabai -m window --focus north || yabai -m display --focus north
-ctrl - l     : yabai -m window --focus east  || yabai -m display --focus east
+alt + shift - h                      : yabai -m window --focus west  || yabai -m display --focus west
+alt + shift - n                      : yabai -m window --focus south || yabai -m display --focus south
+alt + shift - e                      : yabai -m window --focus north || yabai -m display --focus north
+alt + shift - i                      : yabai -m window --focus east  || yabai -m display --focus east
 
-ctrl - left  : yabai -m window --focus west  || yabai -m display --focus west
-ctrl - down  : yabai -m window --focus south || yabai -m display --focus south
-ctrl - up    : yabai -m window --focus north || yabai -m display --focus north
-ctrl - right : yabai -m window --focus east  || yabai -m display --focus east
+alt + shift - left                   : yabai -m window --focus west  || yabai -m display --focus west
+alt + shift - down                   : yabai -m window --focus south || yabai -m display --focus south
+alt + shift - up                     : yabai -m window --focus north || yabai -m display --focus north
+alt + shift - right                  : yabai -m window --focus east  || yabai -m display --focus east
+
+# Focus space
+alt + shift + ctrl + cmd - h         : yabai -m space --focus prev  || yabai -m display --focus west
+alt + shift + ctrl + cmd - i         : yabai -m space --focus next  || yabai -m display --focus east
+
+alt + shift + ctrl + cmd - left      : yabai -m space --focus prev  || yabai -m display --focus west
+alt + shift + ctrl + cmd - right     : yabai -m space --focus next  || yabai -m display --focus east
 
 # Swap windows
-ctrl - n     : yabai -m window --swap west   || ( yabai -m window --display west  && yabai -m window --focus recent )
-ctrl - m     : yabai -m window --swap south  || ( yabai -m window --display south && yabai -m window --focus recent )
-ctrl - 0x2B  : yabai -m window --swap north  || ( yabai -m window --display north && yabai -m window --focus recent )
-ctrl - 0x2F  : yabai -m window --swap east   || ( yabai -m window --display east  && yabai -m window --focus recent )
-ctrl - 0x2C  : yabai -m space --mirror y-axis
-ctrl - 0x29  : yabai -m space --mirror x-axis
-ctrl - p     : yabai -m space --rotate 270
+alt + shift + ctrl - h               : yabai -m window --swap west   || ( yabai -m window --display west  && yabai -m window --focus recent )
+alt + shift + ctrl - n               : yabai -m window --swap south  || ( yabai -m window --display south && yabai -m window --focus recent )
+alt + shift + ctrl - e               : yabai -m window --swap north  || ( yabai -m window --display north && yabai -m window --focus recent )
+alt + shift + ctrl - i               : yabai -m window --swap east   || ( yabai -m window --display east  && yabai -m window --focus recent )
+
+alt + shift + ctrl - left            : yabai -m window --swap west   || ( yabai -m window --display west  && yabai -m window --focus recent )
+alt + shift + ctrl - down            : yabai -m window --swap south  || ( yabai -m window --display south && yabai -m window --focus recent )
+alt + shift + ctrl - up              : yabai -m window --swap north  || ( yabai -m window --display north && yabai -m window --focus recent )
+alt + shift + ctrl - right           : yabai -m window --swap east   || ( yabai -m window --display east  && yabai -m window --focus recent )
+
+# Mirror windows
+## use 'skdh -o' to find key values
+alt + shift + ctrl - k               : yabai -m space --mirror y-axis
+alt + shift + ctrl - 0x2F            : yabai -m space --mirror y-axis
+alt + shift + ctrl - m               : yabai -m space --mirror x-axis
+alt + shift + ctrl - 0x2B            : yabai -m space --mirror x-axis
+
+# Rotate windows
+alt + shift + ctrl - l               : yabai -m space --rotate 270
+alt + shift + ctrl - u               : yabai -m space --rotate 90
