@@ -14,14 +14,6 @@ alt + shift - 0x2B                   : yabai -m window --toggle float; yabai -m 
 alt + shift - k                      : yabai -m window --toggle split || yabai -m window --swap west
 alt + shift - 0x2F                   : yabai -m window --toggle split || yabai -m window --swap west
 
-# Focus space
-alt + shift - j                      : yabai -m space --focus prev
-alt + shift - y                      : yabai -m space --focus next
-
-# Move window between spaces
-alt + shift + ctrl - j               : yabai -m window --space prev ; yabai -m space --focus prev
-alt + shift + ctrl - y               : yabai -m window --space next ; yabai -m space --focus next
-
 # Focus window
 alt + shift - h                      : yabai -m window --focus west  || yabai -m display --focus west
 alt + shift - n                      : yabai -m window --focus south || yabai -m display --focus south
@@ -54,3 +46,12 @@ alt + shift + ctrl - 0x2B            : yabai -m space --mirror x-axis
 # Rotate windows
 alt + shift + ctrl - l               : yabai -m space --rotate 270
 alt + shift + ctrl - u               : yabai -m space --rotate 90
+
+# Focus space
+alt + shift - j                      : yabai -m space --focus prev
+alt + shift - y                      : yabai -m space --focus next
+
+# Move window between spaces
+alt + shift + ctrl - j               : yabai -m window --space prev ; yabai -m space --focus prev
+alt + shift + ctrl - y               : yabai -m window --space next ; yabai -m space --focus next
+
