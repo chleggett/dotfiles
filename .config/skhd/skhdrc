@@ -2,8 +2,8 @@
 # There are many like it, but this one is mine.
 
 # Zoom window
-alt + shift - space                  : yabai -m window --toggle zoom-fullscreen
 alt + shift - m                      : yabai -m window --toggle zoom-fullscreen
+alt + shift - space                  : yabai -m window --toggle zoom-fullscreen
 
 # Float window
 ## use 'skdh -o' to find key values
@@ -14,11 +14,13 @@ alt + shift - 0x2B                   : yabai -m window --toggle float; yabai -m 
 alt + shift - k                      : yabai -m window --toggle split || yabai -m window --swap west
 alt + shift - 0x2F                   : yabai -m window --toggle split || yabai -m window --swap west
 
-# Move window
-ctrl - u                             : yabai -m window --space prev ; yabai -m space --focus prev
-ctrl - i                             : yabai -m window --space next ; yabai -m space --focus next
-ctrl - y                             : yabai -m space --focus prev
-ctrl - o                             : yabai -m space --focus next
+# Focus space
+alt + shift - j                      : yabai -m space --focus prev
+alt + shift - y                      : yabai -m space --focus next
+
+# Move window between spaces
+alt + shift + ctrl - j               : yabai -m window --space prev ; yabai -m space --focus prev
+alt + shift + ctrl - y               : yabai -m window --space next ; yabai -m space --focus next
 
 # Focus window
 alt + shift - h                      : yabai -m window --focus west  || yabai -m display --focus west
@@ -30,13 +32,6 @@ alt + shift - left                   : yabai -m window --focus west  || yabai -m
 alt + shift - down                   : yabai -m window --focus south || yabai -m display --focus south
 alt + shift - up                     : yabai -m window --focus north || yabai -m display --focus north
 alt + shift - right                  : yabai -m window --focus east  || yabai -m display --focus east
-
-# Focus space
-alt + shift + ctrl + cmd - h         : yabai -m space --focus prev  || yabai -m display --focus west
-alt + shift + ctrl + cmd - i         : yabai -m space --focus next  || yabai -m display --focus east
-
-alt + shift + ctrl + cmd - left      : yabai -m space --focus prev  || yabai -m display --focus west
-alt + shift + ctrl + cmd - right     : yabai -m space --focus next  || yabai -m display --focus east
 
 # Swap windows
 alt + shift + ctrl - h               : yabai -m window --swap west   || ( yabai -m window --display west  && yabai -m window --focus recent )
