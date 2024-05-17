@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Confluence Test.md",
+                "file": "Confluence Sync.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Confluence Test.md",
+                "file": "Confluence Sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Confluence Test.md",
+                "file": "Confluence Sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Confluence Test.md"
+                "file": "Confluence Sync.md"
               }
             }
           }
@@ -163,7 +163,10 @@
   },
   "active": "a2f11a153cdd9d20",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Confluence Test.md"
+    "Confluence Test.md",
+    "Confluence Sync.md",
+    "GitHub Sync.md",
+    "GitHub.md",
+    "Welcome.md"
   ]
 }
