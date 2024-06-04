@@ -1,0 +1,312 @@
+{
+  "main": {
+    "id": "80214e3d666e17cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0a6047dcd748240",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4106913f617bd3a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_LifeOS_/_Start_/Meta Bind/Daily Header.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c91bd6d2ae53f5a",
+            "type": "leaf",
+            "state": {
+              "type": "weekly",
+              "state": {}
+            }
+          },
+          {
+            "id": "a5551c38d540488f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/_Templates/Periodic Notes - Daily.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d446da1f14ea5007",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cccd005290cdb03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23cd0f32edf73206",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4054add253898b56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "67ccca2be4143509",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 402.5026054382324
+  },
+  "right": {
+    "id": "d86e9d21db4531b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "efd7e5e1cabdea11",
+        "type": "tabs",
+        "dimension": 55.221238938053105,
+        "children": [
+          {
+            "id": "f2ae753825fc9c51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "18334c1733f21dd0",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "99e79581abcb790a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_LifeOS_/_Start_/Meta Bind/Daily Header.md"
+              }
+            }
+          },
+          {
+            "id": "c0e3798bd532fbc4",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "_LifeOS_/_Start_/Meta Bind/Daily Header.md"
+              }
+            }
+          },
+          {
+            "id": "622b44fd4d94107c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f6f457c26224e20d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8109f012c9b3105e",
+        "type": "tabs",
+        "dimension": 44.778761061946895,
+        "children": [
+          {
+            "id": "295c7378f80d42a4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "_LifeOS_/_Start_/Meta Bind/Daily Header.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5963258621008647,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "4a016c999f4d91e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_LifeOS_/_Start_/Meta Bind/Daily Header.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e8261260f1f3c80d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_LifeOS_/_Start_/Meta Bind/Daily Header.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 439.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-day-planner:Timeline": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "4106913f617bd3a0",
+  "lastOpenFiles": [
+    "Resources/_Templates/Periodic Notes - Daily.md",
+    "_LifeOS_/_Start_/Meta Bind/Daily Header.md",
+    "Resources/Groups/EMTech.md",
+    "_LifeOS_/Recurring Meetings.md",
+    "Resources/Groups/Big Leadership Team (BLT).md",
+    "Resources/Groups/Senior Leadership Council (SLC)/Senior Leadership Council (SLC).md",
+    "Resources/People/Xiang (Daniel) Chung.md",
+    "Resources/People/Christine Miller Divine.md",
+    "Projects/Account Deep Cleanup.md",
+    "Journal/2024/Weeks/2024-W24.md",
+    "Journal/2024/2024-06 - June/2024-06-03 - Monday.md",
+    "Journal/2024/2024-06 - June/2024-06-06 - Thursday.md",
+    "Journal/2024/2024-06 - June/2024-06-04 - Tuesday.md",
+    "Journal/2024/Weeks/2024-W23.md",
+    "Journal/2024/2024-06 - June/2024-06-05 - Wednesday.md",
+    "Journal/2024/2024-06 - June/Untitled.md",
+    "Projects/Projects.md",
+    "_LifeOS_/_Start_/Meta Bind/Yearly Header.md",
+    "_LifeOS_/_Start_/Meta Bind/Weekly Header.md",
+    "_LifeOS_/_Start_/Meta Bind/Quarterly Header.md",
+    "_LifeOS_/_Start_/Meta Bind/Monthly Header.md",
+    "Journal/2024/2024-06 - June/Migration Tasks.md",
+    "Resources/_Templates/Periodic Notes - Yearly.md",
+    "Journal/2024/2024-06 - June/2024-06-02 - Sunday.md",
+    "Journal/2024/Weeks/2024-W22.md",
+    "Journal/2024/2024-06 - June/2024-06-01 - Saturday.md",
+    "_LifeOS_/_Start_/Meta Bind/Untitled",
+    "_LifeOS_/_Start_/Meta Bind",
+    "_LifeOS_/_Start_/Dashboard.canvas",
+    "_LifeOS_/Dashboard.canvas",
+    "Resources/NIST Cybersecurity Framework (CSF)/NIST CSF Standards/~$2.11-Wireless-Network-Security-Standard.docx",
+    "Areas/Untitled",
+    "Areas/Security Incident Response (SIR)/Security Incidents/Public",
+    "Areas/Security Incident Response (SIR)/Security Incidents/GaTech",
+    "Areas/Security Incident Response (SIR)/Security Incidents/GGC",
+    "Areas/Security Incident Response (SIR)/Security Incidents",
+    "Areas/Security Incident Response (SIR)/Cybersecurity Incident Response Team (CSIRT)",
+    "Resources/Meetings, Trips, & Events/2021 - Microsoft M365 Security Optimization Assessment/Georgia Gwinnett College - O365 Security Knowledge Transfer.pptx",
+    "Resources/Meetings, Trips, & Events/2023-08-23 - IS&S Project Roadmap.jpg",
+    "Resources/Meetings, Trips, & Events/2021 - Microsoft M365 Security Optimization Assessment/Email Filtering Components.png",
+    "Resources/Meetings, Trips, & Events/Appalachian Trail Kickoff (ATKO)/imagejpeg_0-2.jpg",
+    "Resources/Meetings, Trips, & Events/2021 - Microsoft M365 Security Optimization Assessment/SPAM Filter Actions.png",
+    "Resources/Meetings, Trips, & Events/2023-01-11 - VMWare Assessment with Jalissa Hunter.png",
+    "Resources/Assets/1963 Blue Heron Way/Sears Kenmore 911 47713200 Oven abab0bbe92c34334b783c2a10c1cec38/Evernote_Camera_Roll_20151205_073556.jpg",
+    "Resources/Assets/1963 Blue Heron Way/Sears Kenmore 911 47713200 Oven abab0bbe92c34334b783c2a10c1cec38/Evernote_Camera_Roll_20151129_082421.jpg",
+    "Resources/Assets/1963 Blue Heron Way/1963 Blue Heron Way - Gift of Equity Affidavit 2a1a4d7cb6194d96a734436f8cd1d044/Evernote_Snapshot_20150721_180502.jpg",
+    "Resources/Assets/2017 GMC Yukon XL (Cornelius)/YukonCornelius.jpg",
+    "Archive/Resources/Assets/2008 GMC Acadia/IMG_0058.jpg",
+    "Resources/Getting Things Done (GTD)/Horizons of Focus/HOME.canvas",
+    "Archive/Projects/63 - GaTech OMS Cybersecurity (OMSCY)/63.08 - CS 6750 - Human-Computer Interaction/CS 6750 - P Assignments/CS 6750 - P4/GOMS Model of Grade Explanation Request.canvas",
+    "Archive/Projects/63 - GaTech OMS Cybersecurity (OMSCY)/63.08 - CS 6750 - Human-Computer Interaction/CS 6750 - Individual Project/GOMS Model of Onboarding Experience.canvas",
+    "Archive/Projects/63 - GaTech OMS Cybersecurity (OMSCY)/63.09 - PUBP 6501 - Information Policy & Management/Canvas - 63.09 - PUBP 6501 - Information Policy & Management/63.09 - PUBP 6501 - Information Policy & Management.canvas",
+    "Projects/63 - GaTech OMS Cybersecurity (OMSCY)/63.09 - PUBP 6501 - Information Policy & Management/Canvas - 63.09 - PUBP 6501 - Information Policy & Management/63.09 - PUBP 6501 - Information Policy & Management.canvas",
+    "Resources/Accounts.canvas",
+    "Resources/_OLD/FOCUS/HOME.canvas",
+    "Projects/63 - GaTech OMS Cybersecurity (OMSCY)/63.08 - CS 6750 - Human-Computer Interaction/CS 6750 - P Assignments/CS 6750 - P4/GOMS Model of Grade Explanation Request.canvas"
+  ]
+}

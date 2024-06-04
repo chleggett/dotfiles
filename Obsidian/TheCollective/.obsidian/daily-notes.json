@@ -1,0 +1,6 @@
+{
+  "autorun": true,
+  "folder": "Journal",
+  "template": "Resources/_Templates/Periodic Notes - Daily",
+  "format": "YYYY/YYYY-MM - MMMM/YYYY-MM-DD - dddd"
+}
