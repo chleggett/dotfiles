@@ -16,15 +16,8 @@
       "key": "D"
     }
   ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "]"
-    }
-  ],
-  "app:toggle-left-sidebar": [
+  "templater-obsidian:create-new-note-from-template": [],
+  "app:go-back": [
     {
       "modifiers": [
         "Mod"
@@ -32,96 +25,57 @@
       "key": "["
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    },
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
   "app:go-forward": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Shift"
+        "Mod"
       ],
-      "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowRight"
+      "key": "]"
     }
   ],
   "editor:toggle-checklist-status": [],
-  "editor:swap-line-down": [
+  "obsidian-tasks-plugin:toggle-done": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Shift"
+        "Mod"
       ],
-      "key": "ArrowDown"
-    },
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowDown"
+      "key": "Enter"
     }
   ],
-  "editor:swap-line-up": [
+  "editor:open-link-in-new-leaf": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "ArrowUp"
-    },
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
         "Mod",
         "Shift"
       ],
-      "key": "ArrowUp"
+      "key": "O"
     }
   ],
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl",
         "Mod",
         "Shift"
       ],
-      "key": "L"
+      "key": "Enter"
     }
   ],
-  "obsidian-tasks-plugin:toggle-done": [
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Escape"
+    }
+  ],
+  "editor:toggle-italics": [],
+  "workspace:next-tab": [
     {
       "modifiers": [
         "Alt",
@@ -129,7 +83,116 @@
         "Mod",
         "Shift"
       ],
-      "key": "J"
+      "key": "I"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "switcher:open": [],
+  "darlal-switcher-plus:switcher-plus:open-commands": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-outliner:move-list-item-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }

@@ -260,14 +260,14 @@
         "mode": 16,
         "label": "bookmarks",
         "isActive": false,
-        "isAvailable": false
+        "isAvailable": true
       },
       "filenamesSearch": {
         "id": "filenamesSearch",
         "mode": 16,
         "label": "filenames",
         "isActive": false,
-        "isAvailable": false
+        "isAvailable": true
       },
       "headingsSearch": {
         "id": "headingsSearch",
@@ -351,7 +351,7 @@
     "modeString": "HeadingsList",
     "iconName": "",
     "coreLauncherButtonIconSelector": "span.clickable-icon",
-    "coreLauncherButtonSelector": ".mobile-navbar-action.mod-tappable:has(span.clickable-icon svg.svg-icon.lucide-plus-circle)"
+    "coreLauncherButtonSelector": ".mobile-navbar-action:has(span.clickable-icon svg.svg-icon.lucide-plus-circle)"
   },
   "allowCreateNewFileInModeNames": [
     "Standard",

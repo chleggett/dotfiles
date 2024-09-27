@@ -1,5 +1,5 @@
 {
-  "globalQuery": "short mode\nhide created date",
+  "globalQuery": "path does not include Status Key\npath does not include _Templates_\nshort mode\nhide id\nhide cancelled date\nhide created date\nhide due date\nhide done date\nhide task count",
   "globalFilter": "",
   "removeGlobalFilter": false,
   "taskFormat": "dataview",
@@ -7,85 +7,93 @@
   "setDoneDate": true,
   "setCancelledDate": true,
   "autoSuggestInEditor": true,
-  "autoSuggestMinMatch": 0,
+  "autoSuggestMinMatch": 1,
   "autoSuggestMaxItems": 6,
   "provideAccessKeys": true,
   "useFilenameAsScheduledDate": false,
+  "filenameAsScheduledDateFormat": "",
   "filenameAsDateFolders": [],
   "recurrenceOnNextLine": false,
   "statusSettings": {
     "coreStatuses": [
       {
         "symbol": " ",
-        "name": "NotStarted",
+        "name": "0. Inbox",
         "nextStatusSymbol": "x",
         "availableAsCommand": true,
         "type": "TODO"
       },
       {
         "symbol": "x",
-        "name": "Done",
-        "nextStatusSymbol": "*",
+        "name": "9. Done",
+        "nextStatusSymbol": "<",
         "availableAsCommand": true,
         "type": "DONE"
       }
     ],
     "customStatuses": [
       {
-        "symbol": "/",
-        "name": "InProgress",
-        "nextStatusSymbol": "?",
-        "availableAsCommand": true,
-        "type": "IN_PROGRESS"
-      },
-      {
-        "symbol": "-",
-        "name": "Cancelled",
+        "symbol": "*",
+        "name": "1. Active",
         "nextStatusSymbol": " ",
-        "availableAsCommand": true,
-        "type": "CANCELLED"
-      },
-      {
-        "symbol": ">",
-        "name": "Delegated",
-        "nextStatusSymbol": "<",
         "availableAsCommand": false,
         "type": "IN_PROGRESS"
-      },
-      {
-        "symbol": "<",
-        "name": "Scheduled",
-        "nextStatusSymbol": "!",
-        "availableAsCommand": false,
-        "type": "TODO"
       },
       {
         "symbol": "?",
-        "name": "WaitingFor",
-        "nextStatusSymbol": "\"",
-        "availableAsCommand": false,
-        "type": "IN_PROGRESS"
-      },
-      {
-        "symbol": "!",
-        "name": "OnHold",
-        "nextStatusSymbol": "-",
-        "availableAsCommand": false,
-        "type": "TODO"
-      },
-      {
-        "symbol": "*",
-        "name": "Today",
-        "nextStatusSymbol": "/",
+        "name": "2. WaitingFor",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "IN_PROGRESS"
       },
       {
         "symbol": "\"",
-        "name": "AgendaItem",
-        "nextStatusSymbol": ">",
+        "name": "3. AgendaItem",
+        "nextStatusSymbol": " ",
+        "availableAsCommand": false,
+        "type": "IN_PROGRESS"
+      },
+      {
+        "symbol": ">",
+        "name": "4. Delegated",
+        "nextStatusSymbol": " ",
+        "availableAsCommand": false,
+        "type": "IN_PROGRESS"
+      },
+      {
+        "symbol": "b",
+        "name": "5. Backburner",
+        "nextStatusSymbol": " ",
+        "availableAsCommand": false,
+        "type": "IN_PROGRESS"
+      },
+      {
+        "symbol": "/",
+        "name": "6. Next",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "TODO"
+      },
+      {
+        "symbol": "<",
+        "name": "7. Scheduled",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "!",
+        "name": "8. OnHold",
+        "nextStatusSymbol": " ",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "-",
+        "name": "10. Cancelled",
+        "nextStatusSymbol": "<",
+        "availableAsCommand": false,
+        "type": "DONE"
       }
     ]
   },

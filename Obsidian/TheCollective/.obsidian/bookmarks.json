@@ -2,12 +2,12 @@
   "items": [
     {
       "type": "file",
-      "path": "Resources/Getting Things Done (GTD)/Horizons of Focus/BRAIN.md",
+      "path": "Lists/Getting Things Done (GTD)/Horizons of Focus/BRAIN.md",
       "ctime": 1683106537655
     },
     {
       "type": "file",
-      "path": "Resources/Getting Things Done (GTD)/Horizons of Focus/HOME.canvas",
+      "path": "Lists/Getting Things Done (GTD)/Horizons of Focus/HOME.canvas",
       "ctime": 1683106537655
     },
     {
@@ -18,7 +18,7 @@
     {
       "type": "file",
       "ctime": 1717133748635,
-      "path": "_LifeOS_/_Start_/Dashboard.canvas",
+      "path": "_LifeOS_/_Dashboard_/Dashboard.canvas",
       "title": "Dashboard"
     }
   ]

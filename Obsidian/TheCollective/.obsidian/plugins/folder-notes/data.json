@@ -48,7 +48,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "file_explorer",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas"
@@ -89,5 +89,6 @@
   },
   "hideCollapsingIcon": false,
   "tabManagerEnabled": true,
-  "ignoreAttachmentFolder": true
+  "ignoreAttachmentFolder": true,
+  "deleteFilesAction": "trash"
 }

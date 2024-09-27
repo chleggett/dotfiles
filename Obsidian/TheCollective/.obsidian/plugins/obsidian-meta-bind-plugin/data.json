@@ -90,6 +90,106 @@
           "command": "periodic-notes:open-yearly-note"
         }
       ]
+    },
+    {
+      "label": "Review Core Documents",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "review-core-documents",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Values Plan]]"
+        }
+      ]
+    },
+    {
+      "label": "Open Fantastical",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "open-fantastical",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "x-fantastical3://show?date=today"
+        }
+      ]
+    },
+    {
+      "label": "Checked Inbox",
+      "hidden": false,
+      "id": "checked-inbox",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "inboxChecks",
+          "evaluate": true,
+          "value": "x + 1"
+        }
+      ]
+    },
+    {
+      "label": "Was Interrupted",
+      "hidden": false,
+      "id": "was-interrupted",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "interrupted",
+          "evaluate": true,
+          "value": "x + 1"
+        }
+      ]
+    },
+    {
+      "label": "Had Meeting",
+      "hidden": false,
+      "id": "had-meeting",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "hoursMeetings",
+          "evaluate": true,
+          "value": "x + .5"
+        }
+      ]
+    },
+    {
+      "label": "Took Break",
+      "hidden": false,
+      "id": "took-break",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "breaks",
+          "evaluate": true,
+          "value": "x + 1"
+        }
+      ]
+    },
+    {
+      "label": "Was Distracted",
+      "hidden": false,
+      "id": "was-distracted",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "distracted",
+          "evaluate": true,
+          "value": "x + 1"
+        }
+      ]
     }
   ],
   "excludedFolders": [
