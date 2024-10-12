@@ -43,6 +43,7 @@
 .zsh_history
 .zsh_sessions/
 Applications/
+Code/
 Creative Cloud Files/
 Desktop/
 Documents/
@@ -56,6 +57,7 @@ Library/Application\ Support/com.raycast.macos/NodeJS/runtime
 Library/Application\ Support/com.raycast.macos/posthog.queueFolder
 Movies/
 Music/
+Obsidian/
 OneDrive
 OneDrive - Georgia Gwinnett College
 Pictures/
