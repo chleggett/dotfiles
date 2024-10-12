@@ -1,4 +1,5 @@
 *.swp
+.config/op/
 .Azure/
 .CFUserTextEncoding
 .Rhistory
@@ -13,6 +14,7 @@
 .config/NuGet/
 .config/nvim/lua/
 .config/nvim/plugin/
+.config/raycast/
 .config/rstudio/
 .config/wireshark/
 .cups/
@@ -53,6 +55,8 @@ Georgia Gwinnett College/
 Google Drive
 ISOs/
 Library/
+Library/Application\ Support/com.raycast.macos/NodeJS/runtime
+Library/Application\ Support/com.raycast.macos/posthog.queueFolder
 Movies/
 Music/
 Obsidian/
