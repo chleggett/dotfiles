@@ -13,6 +13,7 @@
 .config/NuGet/
 .config/nvim/lua/
 .config/nvim/plugin/
+.config/raycast/
 .config/rstudio/
 .config/wireshark/
 .cups/
