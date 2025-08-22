@@ -1,4 +1,5 @@
-Charles H. Leggett's dotfiles
+## Charles H. Leggett's dotfiles
+
 There are many repositories like this, but this one is mine.
 
 The files in this repository have been built up over many years.
