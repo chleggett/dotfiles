@@ -1,0 +1,23 @@
+# Repo docs — not a dotfile to deploy into $HOME
+README.md
+
+# Claude Code: manage config only. Never track runtime state, caches, or secrets.
+# (These are defensive — they keep a stray `chezmoi add ~/.claude` from pulling junk.)
+.claude/backups
+.claude/cache
+.claude/chrome
+.claude/daemon
+.claude/daemon.lock
+.claude/daemon.log
+.claude/daemon.status.json
+.claude/history.jsonl
+.claude/jobs
+.claude/plugins
+.claude/projects
+.claude/session-env
+.claude/sessions
+.claude/shell-snapshots
+.claude/statsig
+.claude/todos
+.claude/.credentials.json
+.claude/*.backup.old

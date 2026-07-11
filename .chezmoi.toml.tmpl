@@ -1,0 +1,10 @@
+# chezmoi config, version-controlled. Rendered to ~/.config/chezmoi/chezmoi.toml
+# on `chezmoi init`. The private age key (~/.config/chezmoi/key.txt) is NOT in
+# this repo — back it up in 1Password. Only the public recipient lives here.
+
+sourceDir = "{{ .chezmoi.homeDir }}/Repos/chleggett/dotfiles"
+
+encryption = "age"
+[age]
+    identity = "{{ .chezmoi.homeDir }}/.config/chezmoi/key.txt"
+    recipient = "age1muh8auqqszeetw3wwe25u4wl4tzu9rhy5crd5uqpfr75tu7n7a0qtcacvf"
