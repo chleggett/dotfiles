@@ -39,14 +39,13 @@ vim.opt.rtp:prepend(lazypath)
 -- Plugin specifications. Add plugins to `spec`, then run :Lazy to manage them.
 require("lazy").setup({
   spec = {
-    -- Example plugin (a colorscheme) so you can confirm plugin management works.
-    -- Remove or swap this for your own; run :Lazy after editing.
+    -- Colorscheme. Run :Lazy after editing to sync plugins.
     {
-      "folke/tokyonight.nvim",
+      "ellisonleao/gruvbox.nvim",
       lazy = false,   -- load during startup
       priority = 1000, -- load before other plugins
       config = function()
-        vim.cmd.colorscheme("tokyonight")
+        vim.cmd.colorscheme("gruvbox")
       end,
     },
 
