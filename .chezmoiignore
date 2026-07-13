@@ -21,3 +21,9 @@ README.md
 .claude/todos
 .claude/.credentials.json
 .claude/*.backup.old
+
+# Sonic Pi: only ~/.sonic-pi/config is real config. Everything else is runtime
+# state — logs/history, cached samples, an internal git repo, install UUID.
+.sonic-pi/.uuid
+.sonic-pi/log
+.sonic-pi/store
